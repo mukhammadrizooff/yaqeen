@@ -13,14 +13,16 @@ import {
 } from "@chakra-ui/react";
 import { formatCompactNumber } from "../../constants/formatNumber";
 import { scrollToTop } from "../../constants/scrollToTop";
+// eslint-disable-next-line react/prop-types
 const NavBar = ({ navBar2, showCase1Page }) => {
   const [totalQty, setTotalQty] = useState(0);
   const [subTotal, setSubTotal] = useState(0);
-  const [check, setCheck] = useState(false);
-  const { cartItems, setCartItems, addToCart, modal, setModal } =
+  // eslint-disable-next-line no-empty-pattern
+  const [] = useState(false);
+  const { cartItems, setCartItems, modal, setModal } =
     useContext(CartContext);
   const [whenScroll, setWhenScroll] = useState("bg-transparent");
-  const [logo, setlogo] = useState("/Homyz-logo.png");
+  const [logo, setlogo] = useState("https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg");
   const [textColor, setTextColor] = useState("text-white");
   const [showcaseDropDown, setShowcaseDropDown] = useState(false);
   const [viewSideNav, setViewSideNav] = useState(false);
@@ -33,12 +35,12 @@ const NavBar = ({ navBar2, showCase1Page }) => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
         setWhenScroll("bg-white");
-        setlogo("/Homyz-logo2.png");
+        setlogo("https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg");
         setTextColor("text-black");
       } else {
         setWhenScroll("transparent");
         setTextColor("text-white");
-        setlogo("/Homyz-logo.png");
+        setlogo("https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg");
       }
     };
     window.addEventListener("scroll", changeColor);
@@ -50,7 +52,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
       0
     );
     setTotalQty(totalQuantity);
-    let total = cartItems.map((e, i) => {
+    let total = cartItems.map((e) => {
       return e.quantity * e.price;
     });
     let totalPrice = total.reduce((acc, product) => acc + product, 0);
@@ -142,7 +144,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                                     PKR {formatCompactNumber(e.price)}/Month
                                   </h3>
                                   <p
-                                    onClick={(event) => {
+                                    onClick={() => {
                                       let arr = cartItems;
                                       arr.splice(i, 1);
                                       setCartItems([...arr]);
@@ -238,7 +240,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
         >
           <Link onClick={scrollToTop} to="/">
             <img
-              src={navBar2 ? "/Homyz-logo2.png" : logo}
+              src={navBar2 ? "https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg" : logo}
               className="w-44 max-lg:w-36"
               alt="Homyz-logo"
             />
@@ -392,7 +394,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
         } bg-white  left-0 w-96 p-5 px-10 max-sm:px-5 max-sm:w-80 z-30 transition-all font-medium`}
       >
         <div id="header" className="flex justify-between items-center">
-          <img className="w-36" src="/Homyz-logo2.png" alt="Homyz-logo2" />
+          <img className="w-36" src="https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpgpng" alt="Homyz-logo2" />
           <div
             onClick={() => {
               setViewSideNav(!viewSideNav);

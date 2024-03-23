@@ -1,4 +1,5 @@
 import { Button, Input, Textarea, useToast } from "@chakra-ui/react";
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import axios from "axios";
@@ -46,6 +47,7 @@ const Footer = () => {
     setFormData({ ...formData, [name]: value });
   };
 
+  // eslint-disable-next-line no-unused-vars
   const handleSubmit = (e) => {
     const errors = validateForm(formData);
 
@@ -53,7 +55,7 @@ const Footer = () => {
       setBtnLoader(true);
       axios
         .post("https://homyz-server.vercel.app/contact", formData)
-        .then((response) => {
+        .then(() => {
           showToast();
           setFormData({
             firstName: "",
@@ -136,7 +138,7 @@ const Footer = () => {
         <div className="flex flex-col items-start h-auto justify-between gap-16 w-2/4 max-lg:w-full pr-10 max-sm:pr-0">
           <div className="flex flex-col text-lg items-start  justify-between gap-10 ">
             <a href="/">
-              <img src="/Homyz-logo.png" className="w-36" alt="Homyz-logo" />
+              <img src="https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg" className="w-36" alt="Homyz-logo" />
             </a>
             <p style={{ color: "#696969" }}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,

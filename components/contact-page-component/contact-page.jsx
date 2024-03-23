@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import {
   FaCoins,
@@ -63,6 +64,7 @@ const ContactPage = () => {
     setFormData({ ...formData, [name]: value });
   };
 
+  // eslint-disable-next-line no-unused-vars
   const handleSubmit = (e) => {
     const errors = validateForm(formData);
 
@@ -70,7 +72,7 @@ const ContactPage = () => {
       setBtnLoader(true);
       axios
         .post("https://homyz-server.vercel.app/contact", formData)
-        .then((response) => {
+        .then(() => {
           showToast();
           setFormData({
             firstName: "",
@@ -484,7 +486,7 @@ const ContactPage = () => {
             {/* <div className="flex flex-col gap-7 "> */}
             <div className="flex flex-col gap-7 ">
               <WhatWeDoCard
-                iconSrc={"/icons/reliability.png"}
+                iconSrc={"https://homyz-project.vercel.app/icons/reliability.png"}
                 iconAlt={"reliability"}
                 title={"Reliability"}
                 desc={
@@ -492,7 +494,7 @@ const ContactPage = () => {
                 }
               />
               <WhatWeDoCard
-                iconSrc={"/icons/communication.png"}
+                iconSrc={"https://homyz-project.vercel.app/icons/communication.png"}
                 iconAlt={"communication"}
                 title={"communication"}
                 desc={
@@ -506,7 +508,7 @@ const ContactPage = () => {
                 className="max-md:hidden rounded-lg w-80 bg-gradient-to-t from-white to-transparent"
               ></div>
               <WhatWeDoCard
-                iconSrc={"/icons/quality-first.png"}
+                iconSrc={"https://homyz-project.vercel.app/icons/quality-first.png"}
                 iconAlt={"quality-first"}
                 title={"Quality First"}
                 desc={
