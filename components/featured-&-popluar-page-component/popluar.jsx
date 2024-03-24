@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 const Popular = () => {
   useEffect(() => {
-    document.title = "Popular - Homyz";
+    document.title = "Popular - Yaqeen";
   }, []);
   return (
     <div className="overflow-hidden">

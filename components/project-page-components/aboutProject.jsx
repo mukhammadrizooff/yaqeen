@@ -18,7 +18,7 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
   const param = useParams();
   const project = showCase[param.id - 1];
   useEffect(() => {
-    document.title = `${project.city} - Homyz `;
+    document.title = `${project.city} - Yaqeen `;
   }, [param]);
   return (
     <div className="overflow-hidden">

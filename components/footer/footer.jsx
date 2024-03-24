@@ -138,7 +138,7 @@ const Footer = () => {
         <div className="flex flex-col items-start h-auto justify-between gap-16 w-2/4 max-lg:w-full pr-10 max-sm:pr-0">
           <div className="flex flex-col text-lg items-start  justify-between gap-10 ">
             <a href="/">
-              <img src="https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg" className="w-36" alt="Homyz-logo" />
+              <img src="https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg" className="w-36" alt="Yaqeen-logo" />
             </a>
             <p style={{ color: "#696969" }}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
@@ -188,7 +188,7 @@ const Footer = () => {
               </Link>
             </ul>
           </div>
-          <p style={{ color: "#696969" }}>© Homyz. All Rights Reserved 2023.</p>
+          <p style={{ color: "#696969" }}>© Yaqeen. All Rights Reserved 2023.</p>
         </div>
 
         <div
@@ -274,10 +274,10 @@ const Footer = () => {
             autoComplete="off"
           />
           <Button
-            _hover={{ backgroundColor: "white", color: "#d5515e" }}
-            backgroundColor={"#d5515e"}
+            _hover={{ backgroundColor: "white", color: "#F35C27" }}
+            backgroundColor={"#F35C27"}
             color={"white"}
-            borderColor={"#d5515e"}
+            borderColor={"#F35C27"}
             variant={"outline"}
             size={"lg"}
             isLoading={btnLoader}

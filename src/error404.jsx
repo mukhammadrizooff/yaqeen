@@ -4,12 +4,12 @@ import { useEffect } from "react";
 
 const Error404 = () => {
   useEffect(() => {
-    document.title = "Not Found - Homyz";
+    document.title = "Not Found - Yaqeen";
   }, []);
   return (
     <>
       <nav className="fixed bg-white top-0 py-8 left-0 right-0 flex justify-center items-center">
-        <img src="https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg" alt="Homyz-logo" />
+        <img src="https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg" alt="Yaqeen-logo" />
       </nav>
       <div className="flex justify-center items-center min-h-screen text-center">
         <div className="error-container px-5 text-2xl flex flex-col justify-center items-center gap-5">

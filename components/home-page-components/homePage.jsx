@@ -41,7 +41,7 @@ const HomePage = () => {
   };
   return (
     <div className=" w-full overflow-hidden">
-      <div className="  flex bg-[url('/hero-bg-image.jpg')] pt-36 pb-20 bg-top bg-no-repeat bg-cover  ">
+      <div className="  flex bg-[url('https://yaqeenuz.files.wordpress.com/2024/03/wallpaperflare.com_wallpaper-1.jpg')] pt-36 pb-20 bg-top bg-no-repeat bg-cover  ">
         <motion.div
           initial="initial"
           whileInView="animate"
@@ -106,15 +106,15 @@ const HomePage = () => {
             </div>
             <div className="flex gap-12 max-sm:flex-wrap  justify-center">
               <div className="flex justify-start items-center gap-2">
-                <img className="w-9" src="/grafton.png" alt="img" />
+                <img className="w-9" src="https://homyz-project.vercel.app/grafton.png" alt="img" />
                 <h2 className="text-2xl">Grafton</h2>
               </div>
               <div className="flex justify-start items-center gap-2">
-                <img className="w-9" src="/lighthouse.png" alt="img" />
+                <img className="w-9" src="https://homyz-project.vercel.app/lighthouse.png" alt="img" />
                 <h2 className="text-2xl">Lighthouse</h2>
               </div>
               <div className="flex justify-start items-center gap-2">
-                <img className="w-9" src="/tundratown.png" alt="img" />
+                <img className="w-9" src="https://homyz-project.vercel.app/tundratown.png" alt="img" />
                 <h2 className="text-2xl">Tundratown</h2>
               </div>
             </div>
@@ -207,7 +207,7 @@ const HomePage = () => {
           >
             <div className="flex flex-col gap-7 ">
               <WhatWeDoCard
-                iconSrc={"/icons/reliability.png"}
+                iconSrc={"https://homyz-project.vercel.app/icons/reliability.png"}
                 iconAlt={"reliability"}
                 title={"Reliability"}
                 desc={
@@ -215,7 +215,7 @@ const HomePage = () => {
                 }
               />
               <WhatWeDoCard
-                iconSrc={"/icons/communication.png"}
+                iconSrc={"https://homyz-project.vercel.app/icons/communication.png"}
                 iconAlt={"communication"}
                 title={"communication"}
                 desc={
@@ -229,7 +229,7 @@ const HomePage = () => {
                 className="max-md:hidden rounded-lg w-80 bg-gradient-to-t from-white to-transparent"
               ></div>
               <WhatWeDoCard
-                iconSrc={"/icons/quality-first.png"}
+                iconSrc={"https://homyz-project.vercel.app/icons/quality-first.png"}
                 iconAlt={"quality-first"}
                 title={"Quality First"}
                 desc={
@@ -500,7 +500,7 @@ const HomePage = () => {
             className="w-2/4 max-md:w-full max-md:text-center flex flex-col gap-8"
           >
             <h1 className="text-5xl max-md:text-4xl font-semibold">
-              Why do people love homyz
+              Why do people love Yaqeen
             </h1>
             <div>
               <Carousel />

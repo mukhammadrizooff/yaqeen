@@ -242,7 +242,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             <img
               src={navBar2 ? "https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg" : logo}
               className="w-44 max-lg:w-36"
-              alt="Homyz-logo"
+              alt="Yaqeen-logo"
             />
           </Link>
           <ul
@@ -394,7 +394,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
         } bg-white  left-0 w-96 p-5 px-10 max-sm:px-5 max-sm:w-80 z-30 transition-all font-medium`}
       >
         <div id="header" className="flex justify-between items-center">
-          <img className="w-36" src="https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpgpng" alt="Homyz-logo2" />
+          <img className="w-36" src="https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpgpng" alt="Yaqeen-logo2" />
           <div
             onClick={() => {
               setViewSideNav(!viewSideNav);
