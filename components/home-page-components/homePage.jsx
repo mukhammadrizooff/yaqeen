@@ -106,15 +106,15 @@ const HomePage = () => {
             <div className="flex gap-12 max-sm:flex-wrap  justify-center">
               <div className="flex justify-start items-center gap-2">
                 <img className="w-9" src="https://homyz-project.vercel.app/grafton.png" alt="img" />
-                <h2 className="text-2xl">Grafton</h2>
+                <h2 className="text-2xl">Sifat</h2>
               </div>
               <div className="flex justify-start items-center gap-2">
                 <img className="w-9" src="https://homyz-project.vercel.app/lighthouse.png" alt="img" />
-                <h2 className="text-2xl">Lighthouse</h2>
+                <h2 className="text-2xl">Konstruktivlik</h2>
               </div>
               <div className="flex justify-start items-center gap-2">
                 <img className="w-9" src="https://homyz-project.vercel.app/tundratown.png" alt="img" />
-                <h2 className="text-2xl">Tundratown</h2>
+                <h2 className="text-2xl">Ishonch</h2>
               </div>
             </div>
           </motion.div>
@@ -388,7 +388,7 @@ const HomePage = () => {
           <div className="w-full max-lg:w-full h-full max-sm:max-h-[500px] ">
             <div className=" h-full w-full relative overflow-hidden rounded-lg">
               <img
-                src="/appriciation-section-image.jpg"
+                src="https://yaqeenuz.files.wordpress.com/2024/04/1.jpg"
                 className="absolute w-full h-full object-cover object-center "
                 alt=""
               />

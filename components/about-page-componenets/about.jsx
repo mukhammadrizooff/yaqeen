@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import Button from "../buttons-component/solidbutton";
 import { Link } from "react-router-dom";
@@ -370,7 +371,7 @@ const AboutPage = () => {
           <div className="w-full max-lg:w-full h-full max-sm:max-h-[500px] ">
             <div className=" h-full w-full relative overflow-hidden rounded-lg">
               <img
-                src="/appriciation-section-image.jpg"
+                src="https://yaqeenuz.files.wordpress.com/2024/04/1.jpg"
                 className="absolute w-full h-full object-cover object-center "
                 alt=""
               />
