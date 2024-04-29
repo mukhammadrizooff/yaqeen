@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import { Button, Input, Toast, useToast } from "@chakra-ui/react";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
@@ -121,9 +123,9 @@ const ResultPage = ({ searchParams, setSearchParams }) => {
         <div className="h-[50vh] flex justify-center items-center">
           <h1 className="text-3xl font-medium opacity-70">
             {btnLoader
-              ? "Searching..."
+              ? "Izlamoqda..."
               : data.length === 0
-              ? "Result not found!"
+              ? "Natija topilmadi!"
               : ""}
           </h1>
         </div>

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const WhatWeDoCard = ({ iconSrc, iconAlt, title, desc }) => {
   return (
     <div className="bg-white rounded-lg w-80 h-72 p-3 pt-1 flex flex-col gap-4">

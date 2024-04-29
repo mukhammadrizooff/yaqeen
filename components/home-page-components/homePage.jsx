@@ -69,7 +69,7 @@ const HomePage = () => {
           >
             <FaPeriscope className="text-red-500 text-2xl absolute left-2 top-5 " />
             <input
-              placeholder="Search..."
+              placeholder="Qidiruv..."
               onKeyDown={(e) => {
                 if (e.key === "Enter") {
                   handleSearch();
@@ -81,7 +81,7 @@ const HomePage = () => {
               type="text"
             />
             <Button
-              content={"Search"}
+              content={"Qidirish"}
               fontSize={"text-xl"}
               padding={"px-5  py-2"}
               furtherClasses={"absolute right-2"}

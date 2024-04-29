@@ -109,7 +109,7 @@ const Product = ({
             <div>
               <h2 className="text-xl text-red-500 font-semibold">Price:</h2>
               <h2 className="text-2xl mt-2 font-semibold">
-                PKR {formatCompactNumber(price)}/Month
+                UZS {formatCompactNumber(price)}/Oy
               </h2>
             </div>
             <div className="flex flex-col gap-2">
