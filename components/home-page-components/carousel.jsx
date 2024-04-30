@@ -30,22 +30,17 @@ export default function Carousel() {
         className="mySwiper text-xl"
       >
         <SwiperSlide>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit neque
-          natus asperiores unde, nulla sequi, nobis saepe dicta aut maiores quia
-          quos sapiente dolores consequuntur perspiciatis repellendus quis
-          necessitatibus quas.
+          Ushbu platforma prototipini bizning talaba yaratganidan juda ham faxrlanamiz chunki
+          ushbu loyiha odamlarni ishini qulaylashtirish hamda 
+          uzog&apos;ini yaqin qilishda katta yordam beradi.
         </SwiperSlide>
         <SwiperSlide>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit neque
-          natus asperiores unde, nulla sequi, nobis saepe dicta aut maiores quia
-          quos sapiente dolores consequuntur perspiciatis repellendus quis
-          necessitatibus quas.
+          Men advokat, yurist umumiy qilganda huquqshundurman 
+          va men yaqeen ga ishonaman va sizlarga ham tavsiya beraman.
         </SwiperSlide>
         <SwiperSlide>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit neque
-          natus asperiores unde, nulla sequi, nobis saepe dicta aut maiores quia
-          quos sapiente dolores consequuntur perspiciatis repellendus quis
-          necessitatibus quas.
+          Yaqeen ning ilk mijozlaridan biri sifatida ushbu loyiha haqida
+          fikrim mutoloq ijobiydur va ishonchlikdur ham.
         </SwiperSlide>
 
         <div className="slider-controler flex max-md:justify-center  gap-3  mt-16">

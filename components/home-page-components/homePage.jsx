@@ -378,7 +378,7 @@ const HomePage = () => {
             <motion.div variants={animationVariants.fadeLeft}>
               <Link onClick={scrollToTop} to={"/contact"}>
                 <Button
-                  content={"Get In Touch"}
+                  content={"Ulanish"}
                   padding={"px-6 py-3"}
                   fontSize={"text-xl"}
                 />
@@ -459,9 +459,9 @@ const HomePage = () => {
               variants={animationVariants.zoomIn}
             >
               <ReviewCard
-                imgSrc={"/reviews/jane-cooper.jpg"}
-                title={"Jane Cooper"}
-                from={"Real Estate"}
+                imgSrc={"https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F87555%2F22f599b9-d827-4294-b576-b09db4dc3f4a.png"}
+                title={"Ariel Camus"}
+                from={"Microverse.INC CEO"}
               />
             </motion.div>
             <motion.div
@@ -469,9 +469,9 @@ const HomePage = () => {
               variants={animationVariants.zoomIn}
             >
               <ReviewCard
-                imgSrc={"/reviews/robert-fox.jpg"}
-                title={"Robert Fox"}
-                from={"Creative Director"}
+                imgSrc={"https://yaqeenuz.files.wordpress.com/2024/04/uslb.png"}
+                title={"Baxromjon Usmonov"}
+                from={"USLB.uz Asoschisi"}
               />
             </motion.div>
             <motion.div
@@ -479,9 +479,9 @@ const HomePage = () => {
               variants={animationVariants.zoomIn}
             >
               <ReviewCard
-                imgSrc={"/reviews/marvin-mckinney.jpg"}
-                title={"Marvin Mckinney"}
-                from={"CEO of Bimetrix"}
+                imgSrc={"https://yaqeenuz.files.wordpress.com/2024/04/apex.png"}
+                title={"Oybek Kyumov"}
+                from={"Software Engineer Apex Bank"}
               />
             </motion.div>
           </motion.div>

@@ -327,41 +327,41 @@ const AboutPage = () => {
             >
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  6
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Yillik tajriba va sifat uyg&apos;unligadagi loyihalar va kuchli jamoa
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  6
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Yillik tajriba va sifat uyg&apos;unligadagi loyihalar va kuchli jamoa
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  6
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Yillik tajriba va sifat uyg&apos;unligadagi loyihalar va kuchli jamoa
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  6
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Yillik tajriba va sifat uyg&apos;unligadagi loyihalar va kuchli jamoa
                 </p>
               </div>
             </motion.div>
             <motion.div variants={animationVariants.fadeLeft}>
               <Link onClick={scrollToTop} to={"/contact"}>
                 <Button
-                  content={"Get In Touch"}
+                  content={"Ulanish"}
                   padding={"px-6 py-3"}
                   fontSize={"text-xl"}
                 />
