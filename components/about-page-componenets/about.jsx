@@ -468,7 +468,7 @@ const AboutPage = () => {
               return (
                 <PartnerBrandCard
                   title={e.title}
-                  src={`/partner-brands/${e.src}.png`}
+                  src={`${e.src}.png`}
                   alt={e.src}
                   key={i}
                 />
