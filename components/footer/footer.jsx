@@ -141,10 +141,7 @@ const Footer = () => {
               <img src="https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg" className="w-36" alt="Yaqeen-logo" />
             </a>
             <p style={{ color: "#696969" }}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
-              pariatur. Fugit dignissimos aut tempora ullam similique minima
-              culpa quod fuga, doloribus expedita, cupiditate sint, nulla
-              distinctio soluta. Aut, sequi quia.
+            Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.
             </p>
             <div className="flex text-xl justify-start items-center gap-10 text-red-500">
               <Link target="_blank" to={"https://facebook.com"}>
@@ -281,7 +278,7 @@ const Footer = () => {
             variant={"outline"}
             size={"lg"}
             isLoading={btnLoader}
-            loadingText={"Sending.."}
+            loadingText={"Yuborilmoqda..."}
             onClick={handleSubmit}
             className="mt-4  max-lg:w-72 max-sm:w-full"
             transitionDuration={"300ms"}

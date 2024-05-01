@@ -194,13 +194,12 @@ const AboutPage = () => {
               viewport={{ once: true, amount: 0.2 }}
               className="border-t-2 text-xl border-black/20 pt-4"
             >
-              <h2 className="title-font font-semibold">-01</h2>
+              <h2 className="title-font font-semibold">-02</h2>
               <h2 className="title-font mt-7  font-medium text-red-500">
-                Residential
+                Texnologik
               </h2>
               <p className="mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                Web2 va web3 da qolanilyotgan har qanday loyiha yoki yangi proyektlarni loyihalashtirish.
               </p>
             </motion.div>
             <motion.div
@@ -210,13 +209,12 @@ const AboutPage = () => {
               viewport={{ once: true, amount: 0.2 }}
               className="border-t-2 text-xl border-black/20 pt-4"
             >
-              <h2 className="title-font font-semibold">-01</h2>
+              <h2 className="title-font font-semibold">-03</h2>
               <h2 className="title-font mt-7  font-medium text-red-500">
-                Residential
+                Konstruktiv
               </h2>
               <p className="mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                Qurilish yonalishda erishligan katta natijalar.
               </p>
             </motion.div>
           </div>
@@ -239,12 +237,12 @@ const AboutPage = () => {
             className="w-1/2 max-lg:w-2/3 max-md:w-full"
           >
             <h1 className="text-5xl ">
-              We seek to create value for investors across the
-              <span className="text-red-500"> real estate spectrum</span>
+              Bizning platformadagi
+              <span className="text-red-500"> Servislar</span>
             </h1>
             <div className="flex flex-col gap-5 mt-7">
               <div className="flex justify-between items-center border-b-2 border-black/30 pb-5 text-2xl">
-                <h2>Investmennt Management</h2>
+                <h2>Servis 1</h2>
                 <Link
                   to={"/services"}
                   onClick={scrollToTop}
@@ -254,7 +252,7 @@ const AboutPage = () => {
                 </Link>
               </div>
               <div className="flex justify-between items-center border-b-2 border-black/30 pb-5 text-2xl">
-                <h2>Investmennt Management</h2>
+                <h2>Servis 2</h2>
                 <Link
                   to={"/services"}
                   onClick={scrollToTop}
@@ -264,7 +262,7 @@ const AboutPage = () => {
                 </Link>
               </div>
               <div className="flex justify-between items-center border-b-2 border-black/30 pb-5 text-2xl">
-                <h2>Investmennt Management</h2>
+                <h2>Servis 3</h2>
                 <Link
                   to={"/services"}
                   onClick={scrollToTop}
@@ -274,7 +272,7 @@ const AboutPage = () => {
                 </Link>
               </div>
               <div className="flex justify-between items-center border-b-2 border-black/30 pb-5 text-2xl">
-                <h2>Investmennt Management</h2>
+                <h2>Servis 4</h2>
                 <Link
                   to={"/services"}
                   onClick={scrollToTop}
@@ -305,14 +303,13 @@ const AboutPage = () => {
               variants={animationVariants.fadeLeft}
               className="text-5xl max-md:text-4xl font-semibold"
             >
-              We use Real Estate to show our appreciation of the world.
+              Biz dunyoga o&apos;z kuchimizni namoyon qilish uchun sifatli va ishonchli loyihalarni barpo etamiz.
             </motion.h1>
             <motion.p
               variants={animationVariants.fadeLeft}
               className="text-2xl"
             >
-              We provide equity and debt capital globally to back projects that
-              make an impact.
+              Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.
             </motion.p>
             <motion.div
               variants={animationVariants.fadeLeft}
@@ -401,9 +398,9 @@ const AboutPage = () => {
               variants={animationVariants.zoomIn}
             >
               <ReviewCard
-                imgSrc={"/reviews/jane-cooper.jpg"}
-                title={"Jane Cooper"}
-                from={"Real Estate"}
+                imgSrc={"https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F87555%2F22f599b9-d827-4294-b576-b09db4dc3f4a.png"}
+                title={"Ariel Camus"}
+                from={"Microverse.INC CEO"}
               />
             </motion.div>
             <motion.div
@@ -411,9 +408,9 @@ const AboutPage = () => {
               variants={animationVariants.zoomIn}
             >
               <ReviewCard
-                imgSrc={"/reviews/robert-fox.jpg"}
-                title={"Robert Fox"}
-                from={"Creative Director"}
+                imgSrc={"https://yaqeenuz.files.wordpress.com/2024/04/uslb.png"}
+                title={"Baxromjon Usmonov"}
+                from={"USLB.uz Asoschisi"}
               />
             </motion.div>
             <motion.div
@@ -421,9 +418,9 @@ const AboutPage = () => {
               variants={animationVariants.zoomIn}
             >
               <ReviewCard
-                imgSrc={"/reviews/marvin-mckinney.jpg"}
-                title={"Marvin Mckinney"}
-                from={"CEO of Bimetrix"}
+                imgSrc={"https://yaqeenuz.files.wordpress.com/2024/04/apex.png"}
+                title={"Oybek Kyumov"}
+                from={"Software Engineer Apex Bank"}
               />
             </motion.div>
           </motion.div>

@@ -93,7 +93,7 @@ const ResultPage = ({ searchParams, setSearchParams }) => {
             variant={"outline"}
             size={"lg"}
             isLoading={btnLoader}
-            loadingText={"Sending.."}
+            loadingText={"Yuborilmoqda..."}
             onClick={handleSearch}
             className="max-sm:w-full"
             transitionDuration={"300ms"}
