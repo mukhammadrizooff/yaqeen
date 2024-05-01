@@ -118,11 +118,7 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
         className="text-lg mx-auto p-10 max-sm:px-5 max-sm:pt-5  max-sm:mb-8 mb-20"
       >
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
-          dolorum enim, veniam totam eius tempora facere assumenda! Iste quod,
-          assumenda totam fugiat omnis, similique maxime magnam nulla inventore
-          et suscipit sapiente? Exercitationem assumenda mollitia neque quaerat
-          blanditiis et consectetur necessitatibus.
+        Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.
         </p>
         <div className="p-5 px-10 max-sm:px-4">
           <h2 className="text-2xl text-center font-semibold p-5 max-sm:p-3 border-l-4 border-red-500">
@@ -131,46 +127,17 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
           </h2>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis saepe
-          iste sed quibusdam ad voluptatem optio? Soluta veritatis dicta
-          consectetur numquam quibusdam voluptate est voluptatum tenetur?
-          Debitis cum quo nostrum suscipit qui id odio, doloribus voluptates
-          vero vitae quidem facilis cupiditate libero minima impedit quod natus
-          expedita quibusdam necessitatibus sapiente ratione pariatur, animi
-          error. Excepturi voluptates minus iusto explicabo assumenda suscipit,
-          et laboriosam nemo, quia blanditiis aut atque exercitationem dolorem.
+        Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.
         </p>
         <div className="flex flex-col gap-1 mt-4">
           <h2 className="text-2xl font-semibold">
             The path towards customer-centricity
           </h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
-            asperiores quidem maiores odio quaerat totam expedita reiciendis,
-            nobis ducimus eius, mollitia eaque esse dignissimos ipsum ex sit
-            laudantium tempore! Illo velit deserunt nulla hic modi rem
-            architecto nesciunt cum magnam, optio, dolore aut porro vel
-            voluptatibus eius sed inventore ad dignissimos perferendis error
-            ipsam, in unde consequuntur? Totam incidunt nulla, odit repellendus
-            doloribus numquam error commodi laboriosam, facilis vel quo quaerat
-            repudiandae earum. Distinctio at voluptatem, magni blanditiis
-            pariatur deserunt nobis modi quaerat voluptates sit. Quam dolores
-            quos nihil tenetur eos vero autem sint dolorem eius. Tempora
-            molestiae earum ducimus?
+          Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
-            asperiores quidem maiores odio quaerat totam expedita reiciendis,
-            nobis ducimus eius, mollitia eaque esse dignissimos ipsum ex sit
-            laudantium tempore! Illo velit deserunt nulla hic modi rem
-            architecto nesciunt cum magnam, optio, dolore aut porro vel
-            voluptatibus eius sed inventore ad dignissimos perferendis error
-            ipsam, in unde consequuntur? Totam incidunt nulla, odit repellendus
-            doloribus numquam error commodi laboriosam, facilis vel quo quaerat
-            repudiandae earum. Distinctio at voluptatem, magni blanditiis
-            pariatur deserunt nobis modi quaerat voluptates sit. Quam dolores
-            quos nihil tenetur eos vero autem sint dolorem eius. Tempora
-            molestiae earum ducimus?
+          Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.
           </p>
         </div>
       </motion.div>

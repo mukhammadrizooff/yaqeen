@@ -32,7 +32,7 @@ const Popular = () => {
                 href={e.id}
                 imgSrc={e.mainImage}
                 pricing={e.price}
-                titlePart1={"House in "}
+                titlePart1={"Xonadon: "}
                 titlePart2={e.name}
                 type={e.type}
                 key={i}

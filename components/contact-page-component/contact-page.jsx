@@ -158,7 +158,7 @@ const ContactPage = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="text-6xl max-lg:mx-auto font-semibold max-sm:text-5xl max-w-lg "
           >
-            Contact Us
+            Bog&apos;lanish
           </motion.h1>
           <motion.div
             initial="initial"
@@ -175,9 +175,9 @@ const ContactPage = () => {
                 <div className="bg-red-500 w-[60px] h-[58px] rounded-md text-xl flex gap-4 justify-center items-center">
                   <FaEnvelope className="text-white" />
                 </div>
-                <h2 className="title-font font-semibold ">Services</h2>
+                <h2 className="title-font font-semibold ">Servislarimiz</h2>
               </div>
-              <p>Neque porro quisquam est, qui dolorem ipsum.</p>
+              <p>Biz dunyoga o&apos;z kuchimizni namoyon qilish uchun sifatli va ishonchli loyihalarni barpo etamiz.</p>
             </motion.div>
             <motion.div
               variants={animationVariants.fadeUp}
@@ -189,7 +189,7 @@ const ContactPage = () => {
                 </div>
                 <h2 className="title-font font-semibold ">Pricing</h2>
               </div>
-              <p>Neque porro quisquam est, qui dolorem ipsum.</p>
+              <p> Biz dunyoga o&apos;z kuchimizni namoyon qilish uchun sifatli va ishonchli loyihalarni barpo etamiz.</p>
             </motion.div>
             <motion.div
               variants={animationVariants.fadeUp}
@@ -201,7 +201,7 @@ const ContactPage = () => {
                 </div>
                 <h2 className="title-font font-semibold ">Support</h2>
               </div>
-              <p>Neque porro quisquam est, qui dolorem ipsum.</p>
+              <p> Biz dunyoga o&apos;z kuchimizni namoyon qilish uchun sifatli va ishonchli loyihalarni barpo etamiz.</p>
             </motion.div>
           </motion.div>
         </div>
@@ -235,7 +235,7 @@ const ContactPage = () => {
               _focus={{ borderWidth: 0.1 }}
               color={"black"}
               _placeholder={{ color: "#696969" }}
-              placeholder="First Name"
+              placeholder="Ismingiz"
               name="firstName"
               value={formData.firstName}
               onChange={handleChange}
@@ -250,7 +250,7 @@ const ContactPage = () => {
               autoComplete="off"
               color={"black"}
               _placeholder={{ color: "#696969" }}
-              placeholder="Last Name"
+              placeholder="Familyangiz"
               name="lastName"
               value={formData.lastName}
               onChange={handleChange}
@@ -266,7 +266,7 @@ const ContactPage = () => {
             maxLength={40}
             color={"black"}
             _placeholder={{ color: "#696969" }}
-            placeholder="Email Address"
+            placeholder="Pochta Manzilingiz"
             name="email"
             value={formData.email}
             onChange={handleChange}
@@ -283,7 +283,7 @@ const ContactPage = () => {
             color={"black"}
             _placeholder={{ color: "#696969" }}
             type="number"
-            placeholder="Phone No"
+            placeholder="Mobil Raq"
             name="phoneNo"
             value={formData.phoneNo}
             onChange={handleChange}
@@ -313,7 +313,7 @@ const ContactPage = () => {
             variant={"outline"}
             size={"lg"}
             isLoading={btnLoader}
-            loadingText={"Sending.."}
+            loadingText={"Yuborilmoqda..."}
             onClick={handleSubmit}
             className="w-full"
             transitionDuration={"300ms"}
@@ -321,7 +321,7 @@ const ContactPage = () => {
             fontSize={"20px"}
             borderRadius={"4px"}
           >
-            Submit
+            Yuborish
           </Button>
         </motion.div>
         <motion.div
@@ -451,19 +451,17 @@ const ContactPage = () => {
             className="w-1/3 max-lg:w-full max-lg:text-center flex flex-col gap-2 items-start max-lg:items-center"
           >
             <h2 className="text-5xl max-md:text-4xl font-bold title-font">
-              What we do
+              Biz nimalar qilamiz?
             </h2>
             <p className="text-xl">
-              Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-              urna in elit amet blandit enim lacinia. Tellus leo felis et vel
-              eget maecenas.
+            Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.
             </p>
             <Link to="/about" onClick={scrollToTop}>
               <button
                 style={{ borderWidth: 1.5, borderRadius: 4 }}
                 className="bg-transparent  text-black border-red-500 text-xl px-5 py-2 duration-300 hover:bg-red-500 hover:text-white transition-all mt-5 max-md:mt-3"
               >
-                About Us
+                Biz Haqimizda
               </button>
             </Link>
           </motion.div>
@@ -490,7 +488,7 @@ const ContactPage = () => {
                 iconAlt={"reliability"}
                 title={"Reliability"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz."
                 }
               />
               <WhatWeDoCard
@@ -498,7 +496,7 @@ const ContactPage = () => {
                 iconAlt={"communication"}
                 title={"communication"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz."
                 }
               />
             </div>
@@ -512,7 +510,7 @@ const ContactPage = () => {
                 iconAlt={"quality-first"}
                 title={"Quality First"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz."
                 }
               />
               <div

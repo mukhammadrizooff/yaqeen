@@ -104,16 +104,16 @@ const Product = ({
             viewport={{ once: true, amount: 0.2 }}
             className="sticky max-lg:static top-32 flex flex-col gap-4"
           >
-            <h1 className="text-5xl font-semibold">House in {title}</h1>
+            <h1 className="text-5xl font-semibold">Xonadon: {title}</h1>
             <p className="details text-2xl">{descr}</p>
             <div>
-              <h2 className="text-xl text-red-500 font-semibold">Price:</h2>
+              <h2 className="text-xl text-red-500 font-semibold">Narxi:</h2>
               <h2 className="text-2xl mt-2 font-semibold">
-                PKR {formatCompactNumber(price)}/Month
+                UZS {formatCompactNumber(price)}/Oy
               </h2>
             </div>
             <div className="flex flex-col gap-2">
-              <h2 className="text-xl text-red-500 font-semibold">Quantity</h2>
+              <h2 className="text-xl text-red-500 font-semibold">Miqdor</h2>
 
               <NumberInput
                 borderColor={"#696969"}
@@ -148,11 +148,11 @@ const Product = ({
                 onClick={handleAddToCart}
                 className="mt-4 max-lg:w-72 max-sm:w-full"
               >
-                Add to Cart
+                Savatga Qo&apos;shish
               </Button>
             </div>
             <div className="flex text-xl flex-col gap-2">
-              <h2 className=" text-red-500 font-semibold">Details</h2>
+              <h2 className=" text-red-500 font-semibold">Tafsilotlar</h2>
               <p>{descr}</p>
               <ul className="list-disc list-inside ml-2">
                 {details.map((e, i) => {
@@ -174,7 +174,7 @@ const Product = ({
           viewport={{ once: true, amount: 0.2 }}
           className="text-4xl font-semibold"
         >
-          Just For You
+          Faqat siz uchun
         </motion.h1>
         <div className="grid grid-cols-2 grid-rows-3 max-sm:grid-cols-1 max-sm:grid-rows-5 gap-5 mt-10">
           {otherItems.map((e, i) => {
@@ -189,7 +189,7 @@ const Product = ({
               >
                 <ExculusivePropertyCard
                   imgSrc={e.mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Xonadon: "}
                   titlePart2={e.name}
                   pricing={e.price}
                   href={e.id}

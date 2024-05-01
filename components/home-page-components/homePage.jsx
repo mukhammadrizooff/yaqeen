@@ -54,14 +54,13 @@ const HomePage = () => {
             variants={animationVariants.fadeLeft}
             className="text-6xl max-lg:mx-auto font-semibold max-sm:text-4xl max-w-lg "
           >
-            Discover Most Suitable Property
+            Orzungizdagi Uyni Biz Bilan Toping
           </motion.h1>
           <motion.p
             variants={animationVariants.fadeLeft}
             className="text-xl max-lg:mx-auto max-w-md  "
           >
-            Our mission is to engage in issues that are of concern to
-            individuals
+            Bizning maqsadimiz har bir insonni o&apos;z orzusi yo&apos;lida yanada yaqinroq qilishdur.
           </motion.p>
           <motion.div
             variants={animationVariants.fadeLeft}
@@ -70,7 +69,7 @@ const HomePage = () => {
           >
             <FaPeriscope className="text-red-500 text-2xl absolute left-2 top-5 " />
             <input
-              placeholder="Search..."
+              placeholder="Qidiruv..."
               onKeyDown={(e) => {
                 if (e.key === "Enter") {
                   handleSearch();
@@ -82,7 +81,7 @@ const HomePage = () => {
               type="text"
             />
             <Button
-              content={"Search"}
+              content={"Qidirish"}
               fontSize={"text-xl"}
               padding={"px-5  py-2"}
               furtherClasses={"absolute right-2"}
@@ -96,26 +95,26 @@ const HomePage = () => {
           >
             <div className="flex gap-12">
               <div className="flex flex-col gap-4">
-                <h2 className="text-4xl title-font font-bold">19K+</h2>
-                <p className="text-lg">Premium houses</p>
+                <h2 className="text-4xl title-font font-bold">500+</h2>
+                <p className="text-lg">Premium uylar</p>
               </div>
               <div className="flex flex-col gap-4">
-                <h2 className="text-4xl title-font font-bold">5000+</h2>
-                <p className="text-lg">Premium houses</p>
+                <h2 className="text-4xl title-font font-bold">1500+</h2>
+                <p className="text-lg">Condominium uylar</p>
               </div>
             </div>
             <div className="flex gap-12 max-sm:flex-wrap  justify-center">
               <div className="flex justify-start items-center gap-2">
                 <img className="w-9" src="https://homyz-project.vercel.app/grafton.png" alt="img" />
-                <h2 className="text-2xl">Grafton</h2>
+                <h2 className="text-2xl">Sifat</h2>
               </div>
               <div className="flex justify-start items-center gap-2">
                 <img className="w-9" src="https://homyz-project.vercel.app/lighthouse.png" alt="img" />
-                <h2 className="text-2xl">Lighthouse</h2>
+                <h2 className="text-2xl">Konstruktivlik</h2>
               </div>
               <div className="flex justify-start items-center gap-2">
                 <img className="w-9" src="https://homyz-project.vercel.app/tundratown.png" alt="img" />
-                <h2 className="text-2xl">Tundratown</h2>
+                <h2 className="text-2xl">Ishonch</h2>
               </div>
             </div>
           </motion.div>
@@ -137,8 +136,8 @@ const HomePage = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <h2 className="text-5xl max-md:text-4xl font-bold title-font">
-                We build quality real estate projects
-                <span className=" text-red-500 title-font "> since 1998</span>
+              Biz sifatli ko&apos;chmas mulk loyihalarini quramiz
+                <span className=" text-red-500 title-font ">2018 dan buyon</span>
               </h2>
             </motion.div>
           </div>
@@ -150,14 +149,11 @@ const HomePage = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className="text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                itaque nesciunt similique dolore illum eaque repellat eligendi
-                nemo odit fugit in, impedit ad excepturi architecto dolores
-                quaerat accusantium! Sapiente, repellendus!
+              Bizning jamoamiz arxitektura va qurilish sohasida kengaytirilgan tajribaga ega va har qanday murakkablikdagi loyihalarni amalga oshirishga tayyor. Biz ijodiy yechimlarni qo&apos;llab-quvvatlaymiz va mijozlarimizning talablari va istaklari bo&apos;yicha personalizatsiya qilishimizga e&apos;tibor beramiz. Biz bilan bog&apos;lanish vaqtingiz uchun sabrli bo&apos;lishimizni va har qanday savolingiz uchun tayyor bo&apos;lishimizni kafolatlaymiz!
               </p>
               <Link onClick={scrollToTop} to={"/about"}>
                 <Button
-                  content={"About Us"}
+                  content={"Biz Haqimizda"}
                   fontSize={"text-xl"}
                   padding={"px-5  py-2"}
                   furtherClasses={"mt-8"}
@@ -181,19 +177,17 @@ const HomePage = () => {
             className="w-1/3 max-lg:w-full max-lg:text-center flex flex-col gap-2 items-start max-lg:items-center"
           >
             <h2 className="text-5xl max-md:text-4xl font-bold title-font">
-              What we do
+              Biz nima qilamiz?
             </h2>
             <p className="text-xl">
-              Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-              urna in elit amet blandit enim lacinia. Tellus leo felis et vel
-              eget maecenas.
+            Biz ko&apos;chmas mulk olish, Premium hamda Kondominium turdagi uylar va inshoatlarni zamon talabiga mos tarzda qurish va qurilish loyihalarini amalga oshiramiz.
             </p>
             <Link onClick={scrollToTop} to={"/about"}>
               <button
                 style={{ borderWidth: 1.5, borderRadius: 4 }}
                 className="bg-transparent  text-black border-red-500 text-xl px-5 py-2 duration-300 hover:bg-red-500 hover:text-white transition-all mt-5 max-md:mt-3"
               >
-                About Us
+                Ko&apos;roq
               </button>
             </Link>
           </motion.div>
@@ -208,18 +202,18 @@ const HomePage = () => {
             <div className="flex flex-col gap-7 ">
               <WhatWeDoCard
                 iconSrc={"https://homyz-project.vercel.app/icons/reliability.png"}
-                iconAlt={"reliability"}
-                title={"Reliability"}
+                iconAlt={"ishonchlilik"}
+                title={"Ishonchlilik"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "Biz eng so'nggi arxitektura dizayni dasturlarini va ishlab chiqarish texnologiyalarini qo'llaymiz, bu orqali mijozlarimizga eng yuqori sifatli va innovatsion mahsulotlarni taqdim etamiz."
                 }
               />
               <WhatWeDoCard
                 iconSrc={"https://homyz-project.vercel.app/icons/communication.png"}
-                iconAlt={"communication"}
-                title={"communication"}
+                iconAlt={"aloqa"}
+                title={"Aloqa"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "Biz mijozlarimizga joriy vaqt ichida ishlab chiqarishni ta'minlaymiz va ularning talablari va istaklari bo'yicha personalizatsiya qilishimizni kafolatlaymiz."
                 }
               />
             </div>
@@ -230,10 +224,10 @@ const HomePage = () => {
               ></div>
               <WhatWeDoCard
                 iconSrc={"https://homyz-project.vercel.app/icons/quality-first.png"}
-                iconAlt={"quality-first"}
-                title={"Quality First"}
+                iconAlt={"birinchi navbatda sifat"}
+                title={"Birinchi navbatda sifat"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "Biz har bir loyihani ravishda bajarishga intilamiz, har qanday loyihada ham kutilgan natijalarni ko'rsatishga tayyormiz."
                 }
               />
               <div
@@ -251,14 +245,14 @@ const HomePage = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="text-5xl max-md:text-4xl font-semibold text-center"
           >
-            Exclusive Properties
+            Bizning Uylar
           </motion.h2>
           <div className="flex flex-col gap-5 mt-10 max-sm:mt-8">
             <div className=" flex gap-5 max-lg:flex-col">
               <div className="w-2/4 max-lg:w-full">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[0].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Xonadon: "}
                   titlePart2={rentHouses[0].name}
                   pricing={rentHouses[0].price}
                   type={rentHouses[0].type}
@@ -268,7 +262,7 @@ const HomePage = () => {
               <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[1].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Xonadon: "}
                   titlePart2={rentHouses[1].name}
                   pricing={rentHouses[1].price}
                   type={rentHouses[1].type}
@@ -276,7 +270,7 @@ const HomePage = () => {
                 />
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[2].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Xonadon: "}
                   titlePart2={rentHouses[2].name}
                   pricing={rentHouses[2].price}
                   type={rentHouses[2].type}
@@ -288,7 +282,7 @@ const HomePage = () => {
               <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[3].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Xonadon: "}
                   titlePart2={rentHouses[3].name}
                   pricing={rentHouses[3].price}
                   type={rentHouses[3].type}
@@ -296,7 +290,7 @@ const HomePage = () => {
                 />
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[4].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Xonadon: "}
                   titlePart2={rentHouses[4].name}
                   pricing={rentHouses[4].price}
                   type={rentHouses[4].type}
@@ -306,7 +300,7 @@ const HomePage = () => {
               <div className="w-2/4 max-lg:w-full">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[5].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Xonadon: "}
                   titlePart2={rentHouses[5].name}
                   pricing={rentHouses[5].price}
                   type={rentHouses[5].type}
@@ -336,14 +330,13 @@ const HomePage = () => {
               variants={animationVariants.fadeLeft}
               className="text-5xl max-md:text-4xl font-semibold"
             >
-              We use Real Estate to show our appreciation of the world.
+              Biz dunyoga o&apos;z kuchimizni namoyon qilish uchun sifatli va ishonchli loyihalarni barpo etamiz.
             </motion.h1>
             <motion.p
               variants={animationVariants.fadeLeft}
               className="text-2xl"
             >
-              We provide equity and debt capital globally to back projects that
-              make an impact.
+              Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.
             </motion.p>
             <motion.div
               variants={animationVariants.fadeLeft}
@@ -351,41 +344,41 @@ const HomePage = () => {
             >
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  6
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Yillik tajriba va sifat uyg&apos;unligadagi loyihalar va kuchli jamoa
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  6
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Yillik tajriba va sifat uyg&apos;unligadagi loyihalar va kuchli jamoa
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  6
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Yillik tajriba va sifat uyg&apos;unligadagi loyihalar va kuchli jamoa
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  6
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Yillik tajriba va sifat uyg&apos;unligadagi loyihalar va kuchli jamoa
                 </p>
               </div>
             </motion.div>
             <motion.div variants={animationVariants.fadeLeft}>
               <Link onClick={scrollToTop} to={"/contact"}>
                 <Button
-                  content={"Get In Touch"}
+                  content={"Ulanish"}
                   padding={"px-6 py-3"}
                   fontSize={"text-xl"}
                 />
@@ -395,7 +388,7 @@ const HomePage = () => {
           <div className="w-full max-lg:w-full h-full max-sm:max-h-[500px] ">
             <div className=" h-full w-full relative overflow-hidden rounded-lg">
               <img
-                src="/appriciation-section-image.jpg"
+                src="https://yaqeenuz.files.wordpress.com/2024/04/1.jpg"
                 className="absolute w-full h-full object-cover object-center "
                 alt=""
               />
@@ -424,7 +417,7 @@ const HomePage = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="text-5xl max-md:text-4xl font-semibold text-center  px-2"
           >
-            Destinations We Love The Most
+            Bizning Loyihalarimz Va Ularni Joylashuvi
           </motion.h1>
           <div className="grid grid-cols-4 grid-rows-1 max-lg:grid-cols-2 max-lg:grid-rows-2 max-sm:grid-cols-1 max-sm:grid-rows-4 gap-4 relative mt-10 max-sm:mt-8">
             <img
@@ -466,9 +459,9 @@ const HomePage = () => {
               variants={animationVariants.zoomIn}
             >
               <ReviewCard
-                imgSrc={"/reviews/jane-cooper.jpg"}
-                title={"Jane Cooper"}
-                from={"Real Estate"}
+                imgSrc={"https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F87555%2F22f599b9-d827-4294-b576-b09db4dc3f4a.png"}
+                title={"Ariel Camus"}
+                from={"Microverse.INC CEO"}
               />
             </motion.div>
             <motion.div
@@ -476,9 +469,9 @@ const HomePage = () => {
               variants={animationVariants.zoomIn}
             >
               <ReviewCard
-                imgSrc={"/reviews/robert-fox.jpg"}
-                title={"Robert Fox"}
-                from={"Creative Director"}
+                imgSrc={"https://yaqeenuz.files.wordpress.com/2024/04/uslb.png"}
+                title={"Baxromjon Usmonov"}
+                from={"USLB.uz Asoschisi"}
               />
             </motion.div>
             <motion.div
@@ -486,9 +479,9 @@ const HomePage = () => {
               variants={animationVariants.zoomIn}
             >
               <ReviewCard
-                imgSrc={"/reviews/marvin-mckinney.jpg"}
-                title={"Marvin Mckinney"}
-                from={"CEO of Bimetrix"}
+                imgSrc={"https://yaqeenuz.files.wordpress.com/2024/04/apex.png"}
+                title={"Oybek Kyumov"}
+                from={"Software Engineer Apex Bank"}
               />
             </motion.div>
           </motion.div>
@@ -500,7 +493,7 @@ const HomePage = () => {
             className="w-2/4 max-md:w-full max-md:text-center flex flex-col gap-8"
           >
             <h1 className="text-5xl max-md:text-4xl font-semibold">
-              Why do people love Yaqeen
+              Nima uchun Yaqeen ni tanlash kerak
             </h1>
             <div>
               <Carousel />
@@ -526,8 +519,10 @@ const HomePage = () => {
               return (
                 <PartnerBrandCard
                   title={e.title}
-                  src={`/partner-brands/${e.src}.png`}
+                  src={`${e.src}.png`}
                   alt={e.src}
+                  width={'100px'}
+                  height={'100px'}
                   key={i}
                 />
               );
