@@ -223,7 +223,7 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
             className="text-red-500 hover:text-black transition-all duration-300"
           >
             <div className="flex items-center gap-1">
-              <p className="text-xl">Contact us</p>
+              <p className="text-xl">Bog&apos;lanish</p>
               <FaArrowRight className="text-sm mt-[2px]" />
             </div>
           </Link>

@@ -204,7 +204,7 @@ const Footer = () => {
               borderColor={"#696969"}
               focusBorderColor="white"
               _placeholder={{ color: "#696969" }}
-              placeholder="First Name"
+              placeholder="Ismingiz"
               name="firstName"
               maxLength={20}
               value={formData.firstName}
@@ -218,7 +218,7 @@ const Footer = () => {
               borderColor={"#696969"}
               focusBorderColor="white"
               _placeholder={{ color: "#696969" }}
-              placeholder="Last Name"
+              placeholder="Familyangiz"
               name="lastName"
               maxLength={20}
               value={formData.lastName}
@@ -234,7 +234,7 @@ const Footer = () => {
               borderColor={"#696969"}
               focusBorderColor="white"
               _placeholder={{ color: "#696969" }}
-              placeholder="Email Address"
+              placeholder="Pochta Manzilingiz"
               name="email"
               maxLength={40}
               value={formData.email}
@@ -249,7 +249,7 @@ const Footer = () => {
               focusBorderColor="white"
               _placeholder={{ color: "#696969" }}
               type="number"
-              placeholder="Phone No"
+              placeholder="Mobil Raq"
               name="phoneNo"
               value={formData.phoneNo}
               onChange={handleChange}
@@ -265,7 +265,7 @@ const Footer = () => {
             borderColor={"#696969"}
             focusBorderColor="white"
             _placeholder={{ color: "#696969" }}
-            placeholder="Message"
+            placeholder="Xabar yozish uchun..."
             maxLength={200}
             className="w-full text-white"
             name="message"
@@ -289,7 +289,7 @@ const Footer = () => {
             fontSize={"20px"}
             borderRadius={"4px"}
           >
-            Submit
+            Yuborish
           </Button>
         </div>
       </footer>

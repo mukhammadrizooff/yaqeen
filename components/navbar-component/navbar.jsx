@@ -137,7 +137,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                                     to={`/products/${e.id}`}
                                   >
                                     <h2 className="title-font text-xl">
-                                      House in {e.name}
+                                      Xonadon: {e.name}
                                     </h2>
                                   </Link>
                                   <h3>
@@ -151,7 +151,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                                     }}
                                     className="text-lg w-fit hover:text-black transition-all duration-300 cursor-pointer text-red-500 hover mt-3"
                                   >
-                                    remove
+                                    o&apos;chirish
                                   </p>
                                 </div>
                               </div>
@@ -178,7 +178,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                               </div>
                             </div>
                             <div className="flex justify-between">
-                              <h2>Total</h2>
+                              <h2>Umumiy</h2>
                               <p>
                                 UZS {formatCompactNumber(e.quantity * e.price)}
                               </p>
@@ -201,7 +201,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                     onClick={() => {
                       setCheckOut(true);
                     }}
-                    content={"Continue to Checkout"}
+                    content={"To'lovni davom ettirish"}
                     padding={"py-2"}
                   />
                   {checkOut ? (
@@ -334,7 +334,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
 
             <Link onClick={scrollToTop} to="/contact">
               <Button
-                content={"Contact Us"}
+                content={"Bog'lanish"}
                 fontSize={"text-xl"}
                 fontWeight={""}
                 padding={"px-5  py-2"}
@@ -497,7 +497,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 className="hover:text-red-500 transition-all w-full block"
               >
                 <Button
-                  content={"Contact Us"}
+                  content={"Bog&apos;lanish"}
                   fontSize={""}
                   padding={"py-[6px] px-3"}
                   furtherClasses={" mt-4"}

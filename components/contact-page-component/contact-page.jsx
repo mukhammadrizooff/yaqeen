@@ -158,7 +158,7 @@ const ContactPage = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="text-6xl max-lg:mx-auto font-semibold max-sm:text-5xl max-w-lg "
           >
-            Contact Us
+            Bog&apos;lanish
           </motion.h1>
           <motion.div
             initial="initial"
@@ -235,7 +235,7 @@ const ContactPage = () => {
               _focus={{ borderWidth: 0.1 }}
               color={"black"}
               _placeholder={{ color: "#696969" }}
-              placeholder="First Name"
+              placeholder="Ismingiz"
               name="firstName"
               value={formData.firstName}
               onChange={handleChange}
@@ -250,7 +250,7 @@ const ContactPage = () => {
               autoComplete="off"
               color={"black"}
               _placeholder={{ color: "#696969" }}
-              placeholder="Last Name"
+              placeholder="Familyangiz"
               name="lastName"
               value={formData.lastName}
               onChange={handleChange}
@@ -266,7 +266,7 @@ const ContactPage = () => {
             maxLength={40}
             color={"black"}
             _placeholder={{ color: "#696969" }}
-            placeholder="Email Address"
+            placeholder="Pochta Manzilingiz"
             name="email"
             value={formData.email}
             onChange={handleChange}
@@ -283,7 +283,7 @@ const ContactPage = () => {
             color={"black"}
             _placeholder={{ color: "#696969" }}
             type="number"
-            placeholder="Phone No"
+            placeholder="Mobil Raq"
             name="phoneNo"
             value={formData.phoneNo}
             onChange={handleChange}
@@ -321,7 +321,7 @@ const ContactPage = () => {
             fontSize={"20px"}
             borderRadius={"4px"}
           >
-            Submit
+            Yuborish
           </Button>
         </motion.div>
         <motion.div

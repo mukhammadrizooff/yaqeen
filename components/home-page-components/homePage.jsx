@@ -95,11 +95,11 @@ const HomePage = () => {
           >
             <div className="flex gap-12">
               <div className="flex flex-col gap-4">
-                <h2 className="text-4xl title-font font-bold">19K+</h2>
+                <h2 className="text-4xl title-font font-bold">500+</h2>
                 <p className="text-lg">Premium uylar</p>
               </div>
               <div className="flex flex-col gap-4">
-                <h2 className="text-4xl title-font font-bold">5000+</h2>
+                <h2 className="text-4xl title-font font-bold">1500+</h2>
                 <p className="text-lg">Condominium uylar</p>
               </div>
             </div>
@@ -227,7 +227,7 @@ const HomePage = () => {
                 iconAlt={"birinchi navbatda sifat"}
                 title={"Birinchi navbatda sifat"}
                 desc={
-                  " Biz har bir loyihani omadli va samarali ravishda bajarishga intilamiz, har qanday kichik yoki katta loyihada ham kutilgan natijalarni ko'rsatishga tayyormiz."
+                  "Biz har bir loyihani ravishda bajarishga intilamiz, har qanday loyihada ham kutilgan natijalarni ko'rsatishga tayyormiz."
                 }
               />
               <div
@@ -252,7 +252,7 @@ const HomePage = () => {
               <div className="w-2/4 max-lg:w-full">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[0].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Xonadon: "}
                   titlePart2={rentHouses[0].name}
                   pricing={rentHouses[0].price}
                   type={rentHouses[0].type}
@@ -262,7 +262,7 @@ const HomePage = () => {
               <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[1].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Xonadon: "}
                   titlePart2={rentHouses[1].name}
                   pricing={rentHouses[1].price}
                   type={rentHouses[1].type}
@@ -270,7 +270,7 @@ const HomePage = () => {
                 />
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[2].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Xonadon: "}
                   titlePart2={rentHouses[2].name}
                   pricing={rentHouses[2].price}
                   type={rentHouses[2].type}
@@ -282,7 +282,7 @@ const HomePage = () => {
               <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[3].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Xonadon: "}
                   titlePart2={rentHouses[3].name}
                   pricing={rentHouses[3].price}
                   type={rentHouses[3].type}
@@ -290,7 +290,7 @@ const HomePage = () => {
                 />
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[4].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Xonadon: "}
                   titlePart2={rentHouses[4].name}
                   pricing={rentHouses[4].price}
                   type={rentHouses[4].type}
@@ -300,7 +300,7 @@ const HomePage = () => {
               <div className="w-2/4 max-lg:w-full">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[5].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Xonadon: "}
                   titlePart2={rentHouses[5].name}
                   pricing={rentHouses[5].price}
                   type={rentHouses[5].type}
@@ -493,7 +493,7 @@ const HomePage = () => {
             className="w-2/4 max-md:w-full max-md:text-center flex flex-col gap-8"
           >
             <h1 className="text-5xl max-md:text-4xl font-semibold">
-              Why do people love Yaqeen
+              Nima uchun Yaqeen ni tanlash kerak
             </h1>
             <div>
               <Carousel />
