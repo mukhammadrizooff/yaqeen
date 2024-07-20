@@ -7,7 +7,7 @@ const ResultCard = ({ title, desc, ind }) => {
     <div className="flex flex-col gap-4">
       <Link
         target="_blank"
-        to={encodeURI(`https://en.wikipedia.org/wiki/${title}`)}
+        to={encodeURI(`https://uz.wikipedia.org/wiki/${title}`)}
       >
         <p className="float-left title-font mr-2 h-7  mt-[0.1px] font-semibold  text-2xl text-red-500">
           {ind + 1}
@@ -19,7 +19,7 @@ const ResultCard = ({ title, desc, ind }) => {
       </Link>
       <Link
         target="_blank"
-        to={encodeURI(`https://en.wikipedia.org/wiki/${title}`)}
+        to={encodeURI(`https://uz.wikipedia.org/wiki/${title}`)}
       >
         <p className="text-2xl " dangerouslySetInnerHTML={{ __html: desc }}></p>
       </Link>
