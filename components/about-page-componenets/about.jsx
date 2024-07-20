@@ -69,7 +69,7 @@ const AboutPage = () => {
             </div>
             <div className="w-full">
               <img
-                src="https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg"
+                src="https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/logo-orig.png"
                 className="w-full h-full"
                 alt=""
               />

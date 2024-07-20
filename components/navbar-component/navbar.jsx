@@ -22,7 +22,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
   const { cartItems, setCartItems, modal, setModal } =
     useContext(CartContext);
   const [whenScroll, setWhenScroll] = useState("bg-transparent");
-  const [logo, setlogo] = useState("https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg");
+  const [logo, setlogo] = useState("https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/logo-orig.png");
   const [textColor, setTextColor] = useState("text-white");
   const [showcaseDropDown, setShowcaseDropDown] = useState(false);
   const [viewSideNav, setViewSideNav] = useState(false);
@@ -35,12 +35,12 @@ const NavBar = ({ navBar2, showCase1Page }) => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
         setWhenScroll("bg-white");
-        setlogo("https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg");
+        setlogo("https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/logo-orig.png");
         setTextColor("text-black");
       } else {
         setWhenScroll("transparent");
         setTextColor("text-white");
-        setlogo("https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg");
+        setlogo("https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/logo-orig.png");
       }
     };
     window.addEventListener("scroll", changeColor);
@@ -240,7 +240,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
         >
           <Link onClick={scrollToTop} to="/">
             <img
-              src={navBar2 ? "https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg" : logo}
+              src={navBar2 ? "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/logo-orig.png" : logo}
               className="w-44 max-lg:w-36"
               alt="Yaqeen-logo"
             />
@@ -394,7 +394,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
         } bg-white  left-0 w-96 p-5 px-10 max-sm:px-5 max-sm:w-80 z-30 transition-all font-medium`}
       >
         <div id="header" className="flex justify-between items-center">
-          <img className="w-36" src="https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpgpng" alt="Yaqeen-logo2" />
+          <img className="w-36" src="https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/logo-orig.png" alt="Yaqeen-logo2" />
           <div
             onClick={() => {
               setViewSideNav(!viewSideNav);
