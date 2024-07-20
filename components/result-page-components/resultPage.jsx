@@ -29,7 +29,7 @@ const ResultPage = ({ searchParams, setSearchParams }) => {
     setBtnLoader(true);
     axios
       .get(
-        `https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=20&srsearch=${inpValue}`
+        `https://uz.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=20&srsearch=${inpValue}`
       )
       .then((res) => {
         console.log(res.data.query.search);
@@ -39,7 +39,7 @@ const ResultPage = ({ searchParams, setSearchParams }) => {
       })
       .catch((error) => {
         setBtnLoader(false);
-        errorToast(error.message, "error");
+        errorToast(error.message, "xatolik");
       });
   };
 
@@ -48,7 +48,7 @@ const ResultPage = ({ searchParams, setSearchParams }) => {
     if (inp.value && inp.value.trim()) {
       search();
     } else {
-      errorToast("Fill the first first!", "error");
+      errorToast("Bo'sh joyni to'ldiring!", "xatolik");
     }
   };
 
@@ -69,7 +69,7 @@ const ResultPage = ({ searchParams, setSearchParams }) => {
         variants={animationVariants.fadeUp}
         viewport={{ once: true, amount: 0.2 }}
       >
-        <h1 className="text-5xl font-semibold">Serch results</h1>
+        <h1 className="text-5xl font-semibold">Qidiruv natijalari</h1>
         <div className="flex items-center max-sm:flex-col gap-4 mt-5">
           <Input
             id="inpValue"
@@ -83,7 +83,7 @@ const ResultPage = ({ searchParams, setSearchParams }) => {
             onChange={(e) => {
               setInpValue(e.target.value);
             }}
-            placeholder="Search"
+            placeholder="Qidiruv..."
           />
           <Button
             _hover={{ backgroundColor: "white", color: "#5352ED" }}

@@ -126,19 +126,19 @@ const ContactPage = () => {
         !data.message &&
         !data.message.trim()
       ) {
-        errorToast("Fill the fields first!", "error");
+        errorToast("Bo'sh joyni to'ldiring!", "xatolik");
       } else if (!data.firstName || !data.firstName.trim()) {
-        errorToast("Enter the firstName!", "error");
+        errorToast("Ismingizni kiriting!", "xatolik");
       } else if (!data.lastName || !data.lastName.trim()) {
-        errorToast("Enter the lastName!", "error");
+        errorToast("Familyangizni kiriting!", "xatolik");
       } else if (!data.email || !data.email.trim()) {
-        errorToast("Enter the email!", "error");
+        errorToast("Po'chtangizni kiriting", "xatolik");
       } else if (!isValidEmail(data.email.trim())) {
-        errorToast("Enter the valid  email!", "error");
+        errorToast("Sog'lom pochtangizni kiriting!", "xatolik");
       } else if (!data.phoneNo || !data.phoneNo.trim()) {
-        errorToast("Enter the phone no!", "error");
+        errorToast("Mobil raqamingizni kiriting!", "xatolik");
       } else if (!data.message || !data.message.trim()) {
-        errorToast("Enter the message!", "error");
+        errorToast("Xabaringizni kiriting!", "xatolik");
       }
     }
     return _error;

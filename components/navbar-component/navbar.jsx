@@ -79,7 +79,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               style={{ borderBottomWidth: 1 }}
               className="modal-header text-2xl font-semibold px-6 py-4 border-gray-400/90 flex justify-between items-center"
             >
-              <h1 className="title">Your Cart</h1>
+              <h1 className="title">Sizning Savatingiz</h1>
 
               <div
                 onClick={() => {
@@ -497,7 +497,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 className="hover:text-red-500 transition-all w-full block"
               >
                 <Button
-                  content={"Bog&apos;lanish"}
+                  content={"Bog'lanish"}
                   fontSize={""}
                   padding={"py-[6px] px-3"}
                   furtherClasses={" mt-4"}

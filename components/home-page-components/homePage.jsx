@@ -36,7 +36,7 @@ const HomePage = () => {
     if (searchInp.value && searchInp.value.trim()) {
       navigate(`/search?query=${searchInp.value}`);
     } else {
-      errorToast("Fill the first first!", "error");
+      errorToast("Qidiruvdagi bo'shliq!", "xatolik");
     }
   };
   return (
