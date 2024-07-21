@@ -146,7 +146,7 @@ const ContactPage = () => {
 
   return (
     <div className=" w-full overflow-hidden">
-      <div className="  flex bg-[url('/hero-bg-image.jpg')] pt-44 max-sm:pt-40 pb-32 bg-top bg-no-repeat bg-cover  ">
+      <div className="  flex bg-[url('https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/photo_2024-07-21_13-45-05-841352303-e1721551806733.jpg')] pt-44 max-sm:pt-40 pb-32 bg-top bg-no-repeat bg-cover  ">
         <div
           style={{ maxWidth: 1200 }}
           className="mx-auto w-full text-white px-10 max-sm:px-5 flex flex-col max-lg:items-center max-lg:text-center gap-16"
@@ -187,9 +187,9 @@ const ContactPage = () => {
                 <div className="bg-red-500 w-[60px] h-[58px] rounded-md text-xl flex gap-4 justify-center items-center">
                   <FaCoins className="text-white" />
                 </div>
-                <h2 className="title-font font-semibold ">Pricing</h2>
+                <h2 className="title-font font-semibold ">Narxlar</h2>
               </div>
-              <p> Biz dunyoga o&apos;z kuchimizni namoyon qilish uchun sifatli va ishonchli loyihalarni barpo etamiz.</p>
+              <p> Biz shahar dagi sifatli va qulay narxdagi uylar bizda mavjud.</p>
             </motion.div>
             <motion.div
               variants={animationVariants.fadeUp}
@@ -199,9 +199,9 @@ const ContactPage = () => {
                 <div className="bg-red-500 w-[60px] h-[58px] rounded-md text-xl flex gap-4 justify-center items-center">
                   <FaMobileAlt className="text-white" />
                 </div>
-                <h2 className="title-font font-semibold ">Support</h2>
+                <h2 className="title-font font-semibold ">Qollab-quvvatlash</h2>
               </div>
-              <p> Biz dunyoga o&apos;z kuchimizni namoyon qilish uchun sifatli va ishonchli loyihalarni barpo etamiz.</p>
+              <p> Biz oz mijozlarimizni hech ham qarovsiz qoldirmaymiz hamda barcha muammolariga har qanday vaziyatlarda yechim topishga xarakat qilamiz.</p>
             </motion.div>
           </motion.div>
         </div>
@@ -333,35 +333,33 @@ const ContactPage = () => {
         >
           <div className="text-5xl max-md:text-4xl max-md:text-center">
             <h1 className="font-semibold ">
-              Contact our support{" "}
+            Bizning qollab-quvvatlash xizmatiga murojaat qiling{" "}
               <span className="font-semibold title-font  text-red-500">
-                team to grow your business
+              Biznesingizni va Bozoringizni rivojlantirish uchun jamoa
               </span>
             </h1>
           </div>
           <p className="text-xl">
-            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-            impedit quo minus id quod maxime placeat facere possimus, omnis
-            voluptas assumenda est, omnis dolor repellendus.
+            Sizda reklama yoki shahsiy brandni yurgazishda muammolar bolayotgan bolsa ushbu keltirilgan forma toldiring va yuboring, biz siz bilan siz kutgandan tezroq aloqaga chiqamiz.
           </p>
           <div className="flex flex-col gap-3">
             <div className="flex  gap-3 text-xl items-center">
               <div>
                 <FaEnvelope className="text-red-500" />
               </div>
-              <p>Office # 2nd district, Andijan, Uz</p>
+              <p>Office # Lomonosov Kochasi, Andijan, Uz</p>
             </div>
             <div className="flex  gap-3 text-xl items-center">
               <div>
                 <FaPhone className="rotate-90 text-red-500" />
               </div>
-              <p>+92 39283848238</p>
+              <p>+998 99 007 37 33</p>
             </div>
             <div className="flex  gap-3 text-xl items-center">
               <div>
                 <FaMapMarkerAlt className="text-red-500" />
               </div>
-              <p>information@office.com</p>
+              <p>infon@yaqeen.uz</p>
             </div>
           </div>
         </motion.div>
@@ -388,12 +386,11 @@ const ContactPage = () => {
                 className="max-w-xl max-lg:max-w-lg max-sm:w-full text-center"
               >
                 <h1 className="text-[46px] max-lg:text-4xl max-sm:text-[34px] max-[500px]:text-3xl leading-tight font-semibold">
-                  Whatever you are, you
-                  <br /> will definitely get a place
+                Nima bolishidan qatiy nazar, 
+                  <br /> bizga qilingan ishonchni oqlaymiz
                 </h1>
                 <p className="text-xl mt-3">
-                  We provide equity and debt capital globally to back projects
-                  that make an impact.
+                  Avvalo ishonch, maqsad, harakat va natija...
                 </p>
               </motion.div>
             </div>
@@ -401,21 +398,21 @@ const ContactPage = () => {
             {/* map human images start */}
             <div className="absolute top-24 max-md:top-6 left-16 max-lg:left-10  max-md:left-16 w-12 h-12 rounded-full overflow-hidden">
               <img
-                src="/contact-page-images/1.jpg"
+                src="https://homyz-project.vercel.app/contact-page-images/2.jpg"
                 className="w-full h-full object-cover object-center"
                 alt="1"
               />
             </div>
             <div className="absolute bottom-20 max-lg:bottom-12 left-36 max-lg:left-20 max-sm:left-10 w-12 h-12 rounded-full overflow-hidden">
               <img
-                src="/contact-page-images/2.jpg"
+                src="https://homyz-project.vercel.app/contact-page-images/1.jpg"
                 className="w-full h-full object-cover object-center"
                 alt="2"
               />
             </div>
             <div className="absolute top-12 right-36 max-lg:right-24 max-sm:right-12 w-12 h-12 rounded-full overflow-hidden">
               <img
-                src="/contact-page-images/3.jpg"
+                src="https://homyz-project.vercel.app/contact-page-images/3.jpg"
                 className="w-full h-full object-cover object-center"
                 alt="3"
               />
@@ -486,7 +483,7 @@ const ContactPage = () => {
               <WhatWeDoCard
                 iconSrc={"https://homyz-project.vercel.app/icons/reliability.png"}
                 iconAlt={"reliability"}
-                title={"Reliability"}
+                title={"Ishonchlilik"}
                 desc={
                   "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz."
                 }
@@ -494,7 +491,7 @@ const ContactPage = () => {
               <WhatWeDoCard
                 iconSrc={"https://homyz-project.vercel.app/icons/communication.png"}
                 iconAlt={"communication"}
-                title={"communication"}
+                title={"Aloqa"}
                 desc={
                   "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz."
                 }
@@ -508,7 +505,7 @@ const ContactPage = () => {
               <WhatWeDoCard
                 iconSrc={"https://homyz-project.vercel.app/icons/quality-first.png"}
                 iconAlt={"quality-first"}
-                title={"Quality First"}
+                title={"Sifat"}
                 desc={
                   "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz."
                 }
@@ -533,7 +530,7 @@ const ContactPage = () => {
           viewport={{ once: true, amount: 0.2 }}
           className="text-5xl max-md:text-4xl font-semibold text-center  mb-16 max-md:mb-12"
         >
-          Customers frequently ask
+          Mijozlar tez-tez sorashadi
         </motion.h1>
         <motion.div
           initial="initial"
@@ -551,16 +548,16 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      How will I know if a special request is confirmed?
+                    Maxsus sorov tasdiqlanganligini qanday bilsam boladi?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                Ko‘pchilikda ma’rifat bir davlat degan tushuncha bor.
+                Kopchilik, shuningdek, unga erishilganda, inson borligiga ishonishadi
+                abadiy osha holatda. Kerakli aql-idrokingiz uchun. rahmat
+                oqiganingiz uchun.
                 </AccordionPanel>
               </AccordionItem>
 
@@ -572,16 +569,16 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      Can I request early check-in/late check-out?
+                    Erta royxatdan otish/kech chiqishni sorashim mumkinmi?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                Ko‘pchilikda ma’rifat bir davlat degan tushuncha bor.
+                Kopchilik, shuningdek, unga erishilganda, inson borligiga ishonishadi
+                abadiy osha holatda. Kerakli aql-idrokingiz uchun. rahmat
+                oqiganingiz uchun.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem className="border-none box-shadow p-6">
@@ -592,16 +589,16 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      Where can I check my booking details and status?
+                    Rezervasyon tafsilotlarini va holatini qayerda tekshirishim mumkin?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                  Ko‘pchilikda ma’rifat bir davlat degan tushuncha bor.
+                  Kopchilik, shuningdek, unga erishilganda, inson borligiga ishonishadi
+                  abadiy osha holatda. Kerakli aql-idrokingiz uchun. rahmat
+                  oqiganingiz uchun.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem className="border-none box-shadow p-6">
@@ -612,16 +609,16 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      How will I know if a special request is confirmed?
+                    Maxsus sorov tasdiqlanganligini qanday bilsam boladi?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                Ko‘pchilikda ma’rifat bir davlat degan tushuncha bor.
+                  Kopchilik, shuningdek, unga erishilganda, inson borligiga ishonishadi
+                  abadiy osha holatda. Kerakli aql-idrokingiz uchun. rahmat
+                  oqiganingiz uchun.
                 </AccordionPanel>
               </AccordionItem>
             </div>
@@ -634,17 +631,16 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      Can I choose the type of bed I want, request a smoking or
-                      non-smoking room?
+                    Men xohlagan uy turini tanlay olamanmi?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                Ko‘pchilikda ma’rifat bir davlat degan tushuncha bor.
+                  Kopchilik, shuningdek, unga erishilganda, inson borligiga ishonishadi
+                  abadiy osha holatda. Kerakli aql-idrokingiz uchun. rahmat
+                  oqiganingiz uchun.
                 </AccordionPanel>
               </AccordionItem>
 
@@ -656,16 +652,16 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      When do I get a confirmation email?
+                    Tasdiqlash xatini qachon olaman?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                Ko‘pchilikda ma’rifat bir davlat degan tushuncha bor.
+                  Kopchilik, shuningdek, unga erishilganda, inson borligiga ishonishadi
+                  abadiy osha holatda. Kerakli aql-idrokingiz uchun. rahmat
+                  oqiganingiz uchun.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem className="border-none box-shadow p-6">
@@ -676,16 +672,16 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      How can I cancel my booking?
+                    Qanday qilib bronni bekor qilishim mumkin?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                Ko‘pchilikda ma’rifat bir davlat degan tushuncha bor.
+                  Kopchilik, shuningdek, unga erishilganda, inson borligiga ishonishadi
+                  abadiy osha holatda. Kerakli aql-idrokingiz uchun. rahmat
+                  oqiganingiz uchun.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem className="border-none box-shadow p-6">
@@ -696,17 +692,17 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      If I have booked accommodation, how can I check my
-                      cancellation policy?
+                    Agar turar joyni bron qilgan bolsam, ozimni qanday tekshirishim mumkin
+                    bekor qilish siyosati?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                Ko‘pchilikda ma’rifat bir davlat degan tushuncha bor.
+                  Kopchilik, shuningdek, unga erishilganda, inson borligiga ishonishadi
+                  abadiy osha holatda. Kerakli aql-idrokingiz uchun. rahmat
+                  oqiganingiz uchun.
                 </AccordionPanel>
               </AccordionItem>
             </div>

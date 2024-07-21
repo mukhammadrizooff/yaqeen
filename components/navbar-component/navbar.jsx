@@ -269,7 +269,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               Servislarimiz
             </Link>
             <div className="showcase-menu cursor-pointer hover:text-red-500 transition-all relative">
-              Kengaytirish
+            Loyihalarimiz
               <div className="showcase-list hidden absolute cursor-default -left-4 ">
                 <ul
                   style={{ border: "1px solid #e9e9e9" }}
@@ -285,7 +285,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                       className="hover:text-red-500 transition-all"
                       to="/showcases/showcase1"
                     >
-                      Loyihalarimiz 1
+                      Orient Gold Invest
                     </Link>
                   </li>
                   <li className="listItem flex items-center gap-2">
@@ -296,9 +296,9 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                     <Link
                       onClick={scrollToTop}
                       className="hover:text-red-500 transition-all"
-                      to="/showcases/showcase2"
+                      to="/showcases/showcase1"
                     >
-                      Loyihalarimiz 1
+                      Yangi Bozor
                     </Link>
                   </li>
                 </ul>

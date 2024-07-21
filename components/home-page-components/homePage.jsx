@@ -41,7 +41,7 @@ const HomePage = () => {
   };
   return (
     <div className=" w-full overflow-hidden">
-      <div className="  flex bg-[url('https://yaqeenuz.files.wordpress.com/2024/03/wallpaperflare.com_wallpaper-1.jpg')] pt-36 pb-20 bg-top bg-no-repeat bg-cover  ">
+      <div className="  flex bg-[url('https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/photo_2024-07-21_13-45-05.jpg')] pt-36 pb-20 bg-top bg-no-repeat bg-cover  ">
         <motion.div
           initial="initial"
           whileInView="animate"
@@ -69,7 +69,7 @@ const HomePage = () => {
           >
             <FaPeriscope className="text-red-500 text-2xl absolute left-2 top-5 " />
             <input
-              placeholder="Qidiruv..."
+              placeholder="Virtual Kutubxona"
               onKeyDown={(e) => {
                 if (e.key === "Enter") {
                   handleSearch();

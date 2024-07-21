@@ -18,17 +18,18 @@ export const showCase = [
   },
   {
     id: 2,
-    city: "2-Kichik Daha",
+    city: "Yangi Bozor",
     shortDescription:
-      "Uzbekiston respublikasi, Andijon viloyatining 2-kichik dahasida qad rostlagan 700 talik xonadonlarimiz.",
+      "Uzbekiston respublikasi, Andijon viloyatining Yangi Bozor hududida qad rostlagan 179 talik xonadonlarimiz.",
     description:
-      "Andijonda qad rostlagan Orient Gold Invest kop qavvatlik turar joy majmuamiz o'z bag'riga 700 ta oilani sig'dra oladi hamda uhsbu turar joy majmua ozing zamonaviy tashqi dizayn hamda markazda joylashgan o'ni bilan ham yaqqol ko'zga tashlanadi. Ush bu majmuaga juda ham sifatli hamda mashhur bo'lgan qurilish materiallari va texnologiyalardan foydalangan holda katta tajribali memor va pudratchilarning malaka va konikmalari asosida barpo etilgandur.",
-    coverImage: "https://yaqeenuz.files.wordpress.com/2024/04/5.jpg",
+      "Andijonda qad rostlagan Yangi Bozor dagi kop qavvatlik turar joy majmuamiz o'z bag'riga 179 ta oilani sig'dra oladi hamda uhsbu turar joy majmua ozing zamonaviy tashqi dizayn hamda markazda joylashgan o'ni bilan ham yaqqol ko'zga tashlanadi. Ush bu majmuaga juda ham sifatli hamda mashhur bo'lgan qurilish materiallari va texnologiyalardan foydalangan holda katta tajribali memor va pudratchilarning malaka va konikmalari asosida barpo etilgandur.",
+    coverImage:
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
     moreImages: [
-      "https://yaqeenuz.files.wordpress.com/2024/04/4.jpg",
-      "https://yaqeenuz.files.wordpress.com/2024/04/13-1.jpg",
-      "https://yaqeenuz.files.wordpress.com/2024/04/10.jpg",
-      "https://yaqeenuz.files.wordpress.com/2024/04/1.jpg",
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-23-56.png",
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-25-29.png",
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-26-07.png",
     ],
     prevHref: "/projects/1",
     nextHref: "/projects/5",
@@ -52,17 +53,18 @@ export const showCase = [
   },
   {
     id: 4,
-    city: "2-Kichik Daha",
+    city: "Yangi Bozor",
     shortDescription:
-      "Uzbekiston respublikasi, Andijon viloyatining 2-kichik dahasida qad rostlagan 700 talik xonadonlarimiz.",
+      "Uzbekiston respublikasi, Andijon viloyatining Yangi Bozor hududida qad rostlagan 179 talik xonadonlarimiz.",
     description:
-      "Andijonda qad rostlagan Orient Gold Invest kop qavvatlik turar joy majmuamiz o'z bag'riga 700 ta oilani sig'dra oladi hamda uhsbu turar joy majmua ozing zamonaviy tashqi dizayn hamda markazda joylashgan o'ni bilan ham yaqqol ko'zga tashlanadi. Ush bu majmuaga juda ham sifatli hamda mashhur bo'lgan qurilish materiallari va texnologiyalardan foydalangan holda katta tajribali memor va pudratchilarning malaka va konikmalari asosida barpo etilgandur.",
-    coverImage: "https://yaqeenuz.files.wordpress.com/2024/04/5.jpg",
+      "Andijonda qad rostlagan Yangi Bozor dagi kop qavvatlik turar joy majmuamiz o'z bag'riga 179 ta oilani sig'dra oladi hamda uhsbu turar joy majmua ozing zamonaviy tashqi dizayn hamda markazda joylashgan o'ni bilan ham yaqqol ko'zga tashlanadi. Ush bu majmuaga juda ham sifatli hamda mashhur bo'lgan qurilish materiallari va texnologiyalardan foydalangan holda katta tajribali memor va pudratchilarning malaka va konikmalari asosida barpo etilgandur.",
+    coverImage:
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
     moreImages: [
-      "https://yaqeenuz.files.wordpress.com/2024/04/4.jpg",
-      "https://yaqeenuz.files.wordpress.com/2024/04/13-1.jpg",
-      "https://yaqeenuz.files.wordpress.com/2024/04/10.jpg",
-      "https://yaqeenuz.files.wordpress.com/2024/04/1.jpg",
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-23-56.png",
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-25-29.png",
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-26-07.png",
     ],
     prevHref: "/projects/3",
     nextHref: "/projects/5",
@@ -86,17 +88,18 @@ export const showCase = [
   },
   {
     id: 6,
-    city: "2-Kichik Daha",
+    city: "Yangi Bozor",
     shortDescription:
-      "Uzbekiston respublikasi, Andijon viloyatining 2-kichik dahasida qad rostlagan 700 talik xonadonlarimiz.",
+      "Uzbekiston respublikasi, Andijon viloyatining Yangi Bozor hududida qad rostlagan 179 talik xonadonlarimiz.",
     description:
-      "Andijonda qad rostlagan Orient Gold Invest kop qavvatlik turar joy majmuamiz o'z bag'riga 700 ta oilani sig'dra oladi hamda uhsbu turar joy majmua ozing zamonaviy tashqi dizayn hamda markazda joylashgan o'ni bilan ham yaqqol ko'zga tashlanadi. Ush bu majmuaga juda ham sifatli hamda mashhur bo'lgan qurilish materiallari va texnologiyalardan foydalangan holda katta tajribali memor va pudratchilarning malaka va konikmalari asosida barpo etilgandur.",
-    coverImage: "https://yaqeenuz.files.wordpress.com/2024/04/5.jpg",
+      "Andijonda qad rostlagan Yangi Bozor dagi kop qavvatlik turar joy majmuamiz o'z bag'riga 179 ta oilani sig'dra oladi hamda uhsbu turar joy majmua ozing zamonaviy tashqi dizayn hamda markazda joylashgan o'ni bilan ham yaqqol ko'zga tashlanadi. Ush bu majmuaga juda ham sifatli hamda mashhur bo'lgan qurilish materiallari va texnologiyalardan foydalangan holda katta tajribali memor va pudratchilarning malaka va konikmalari asosida barpo etilgandur.",
+    coverImage:
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
     moreImages: [
-      "https://yaqeenuz.files.wordpress.com/2024/04/4.jpg",
-      "https://yaqeenuz.files.wordpress.com/2024/04/13-1.jpg",
-      "https://yaqeenuz.files.wordpress.com/2024/04/10.jpg",
-      "https://yaqeenuz.files.wordpress.com/2024/04/1.jpg",
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-23-56.png",
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-25-29.png",
+      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-26-07.png",
     ],
     prevHref: "/projects/5",
     nextHref: "/projects/1",

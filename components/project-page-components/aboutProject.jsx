@@ -55,7 +55,7 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
           <p className="text-xl">{project.shortDescription}</p>
           <Link to={"/contact"} onClick={scrollToTop}>
             <Button
-              content={"Contact Us"}
+              content={"Biz bilan bog'lanish"}
               fontSize={"text-xl max-md:text-xl"}
               padding={"px-4 py-2"}
             />
@@ -69,19 +69,19 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
           className="flex flex-col gap-4"
         >
           <div className="">
-            <h2 className="text-xl mb-2 ">Client</h2>
-            <h3 className="text-xl opacity-80">Insight Studio</h3>
+            <h2 className="text-xl mb-2 ">Loyiha turi</h2>
+            <h3 className="text-xl opacity-80">Turar joy</h3>
           </div>
           <div className="">
-            <h2 className="text-xl mb-2 ">Date</h2>
-            <h3 className="text-xl opacity-80">December 7, 2022</h3>
+            <h2 className="text-xl mb-2 ">Sana</h2>
+            <h3 className="text-xl opacity-80">Noyabr 13, 2023</h3>
           </div>
           <div className="">
-            <h2 className="text-xl mb-2 ">Services</h2>
-            <h3 className="text-xl opacity-80">Art Direction, Website</h3>
+            <h2 className="text-xl mb-2 ">Servis</h2>
+            <h3 className="text-xl opacity-80">Yaqeen & Group</h3>
           </div>
           <div className="">
-            <h2 className="text-xl mb-2 ">Share on</h2>
+            <h2 className="text-xl mb-2 ">Ulashish nuqtalari</h2>
             <div className="text-xl text-red-500 flex gap-3">
               <a
                 style={{ borderWidth: 1 }}
@@ -122,22 +122,18 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
         </p>
         <div className="p-5 px-10 max-sm:px-4">
           <h2 className="text-2xl text-center font-semibold p-5 max-sm:p-3 border-l-4 border-red-500">
-            Recognised and awarded on multiple occasions for producing
-            consistently outstanding products
+            Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.
           </h2>
         </div>
-        <p>
-        Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.
-        </p>
         <div className="flex flex-col gap-1 mt-4">
           <h2 className="text-2xl font-semibold">
-            The path towards customer-centricity
+            Majmuaning ahamiyati
           </h2>
           <p>
-          Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.
+          Xonadon sohiblari loyihani yanada qulayliklaridan bahramant bo&apos;lishadi chunki ushbu majmua o&apos;zida suv zahirasi hamda elektr tarmogi bolmaganida ham liftlar ishlashlari bilan yanada ishonchli va qulaylik kasb etadi.
           </p>
           <p>
-          Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.
+          Xondonlar shahar markazida joylashganligi maktab, bog&apos;cha va boshqa oquv dargohlariga borishni yanada yaqin qiladi.
           </p>
         </div>
       </motion.div>
@@ -170,7 +166,7 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
           className="w-2/5  hover:text-red-500  py-7 flex justify-center items-center gap-3"
         >
           <FaArrowLeft className="prev-arrow transition-all" />
-          <p className="transition-all">Prev post</p>
+          <p className="transition-all">Oldingi</p>
         </Link>
         <div className="w-1/5 py-7 border-l-2 border-r-2 flex justify-center items-center">
           <FaWindows />
@@ -181,7 +177,7 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
           id="next-btn"
           className="w-2/5  hover:text-red-500  py-7 flex justify-center items-center gap-3"
         >
-          <p className="transition-all">Next post</p>
+          <p className="transition-all">Keyingi</p>
           <FaArrowRight className="next-arrow transition-all " />
         </Link>
       </div>

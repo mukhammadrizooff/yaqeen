@@ -83,7 +83,7 @@ const ResultPage = ({ searchParams, setSearchParams }) => {
             onChange={(e) => {
               setInpValue(e.target.value);
             }}
-            placeholder="Qidiruv..."
+            placeholder="Yaqeen Kutubxona"
           />
           <Button
             _hover={{ backgroundColor: "white", color: "#5352ED" }}
