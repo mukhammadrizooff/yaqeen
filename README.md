@@ -1,3 +1,3 @@
 # yaqeen
 
-comming soon...
+comming soon
