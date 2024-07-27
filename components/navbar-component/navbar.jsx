@@ -22,7 +22,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
   const { cartItems, setCartItems, modal, setModal } =
     useContext(CartContext);
   const [whenScroll, setWhenScroll] = useState("bg-transparent");
-  const [logo, setlogo] = useState("https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg");
+  const [logo, setlogo] = useState("https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/logo-orig.png");
   const [textColor, setTextColor] = useState("text-white");
   const [showcaseDropDown, setShowcaseDropDown] = useState(false);
   const [viewSideNav, setViewSideNav] = useState(false);
@@ -35,12 +35,12 @@ const NavBar = ({ navBar2, showCase1Page }) => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
         setWhenScroll("bg-white");
-        setlogo("https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg");
+        setlogo("https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/logo-orig.png");
         setTextColor("text-black");
       } else {
         setWhenScroll("transparent");
         setTextColor("text-white");
-        setlogo("https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg");
+        setlogo("https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/logo-orig.png");
       }
     };
     window.addEventListener("scroll", changeColor);
@@ -79,7 +79,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               style={{ borderBottomWidth: 1 }}
               className="modal-header text-2xl font-semibold px-6 py-4 border-gray-400/90 flex justify-between items-center"
             >
-              <h1 className="title">Your Cart</h1>
+              <h1 className="title">Sizning Savatingiz</h1>
 
               <div
                 onClick={() => {
@@ -137,11 +137,11 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                                     to={`/products/${e.id}`}
                                   >
                                     <h2 className="title-font text-xl">
-                                      House in {e.name}
+                                      Xonadon: {e.name}
                                     </h2>
                                   </Link>
                                   <h3>
-                                    PKR {formatCompactNumber(e.price)}/Month
+                                    UZS {formatCompactNumber(e.price)}/Oy
                                   </h3>
                                   <p
                                     onClick={() => {
@@ -151,7 +151,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                                     }}
                                     className="text-lg w-fit hover:text-black transition-all duration-300 cursor-pointer text-red-500 hover mt-3"
                                   >
-                                    remove
+                                    o&apos;chirish
                                   </p>
                                 </div>
                               </div>
@@ -178,9 +178,9 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                               </div>
                             </div>
                             <div className="flex justify-between">
-                              <h2>Total</h2>
+                              <h2>Umumiy</h2>
                               <p>
-                                PKR {formatCompactNumber(e.quantity * e.price)}
+                                UZS {formatCompactNumber(e.quantity * e.price)}
                               </p>
                             </div>
                           </div>
@@ -192,21 +192,21 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 </div>
                 <div className="p-6 pt-0 bg-white max-sm:pt-6 flex max-sm:fixed bottom-0 left-0 right-0 flex-col gap-5">
                   <div className="flex justify-between items-center">
-                    <h2>Subtotal</h2>
+                    <h2>Jami Oraliq</h2>
                     <p className="total text-red-500">
-                      PKR {formatCompactNumber(subTotal)}
+                      UZS {formatCompactNumber(subTotal)}
                     </p>
                   </div>
                   <Button
                     onClick={() => {
                       setCheckOut(true);
                     }}
-                    content={"Continue to Checkout"}
+                    content={"To'lovni davom ettirish"}
                     padding={"py-2"}
                   />
                   {checkOut ? (
                     <p className="text-red-500">
-                      Checkout is disabled on this site.
+                      Bu saytda to&apos;lov o&apos;chirib qo&apos;yilgan.
                     </p>
                   ) : (
                     ""
@@ -215,7 +215,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               </div>
             ) : (
               <div className="p-20 flex justify-center items-center">
-                <p className="text-xl">No items found.</p>
+                <p className="text-xl">Hech narsa topilmadi.</p>
               </div>
             )}
           </div>
@@ -240,7 +240,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
         >
           <Link onClick={scrollToTop} to="/">
             <img
-              src={navBar2 ? "https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpg" : logo}
+              src={navBar2 ? "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/logo-orig.png" : logo}
               className="w-44 max-lg:w-36"
               alt="Yaqeen-logo"
             />
@@ -259,17 +259,17 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               className="hover:text-red-500 transition-all"
               to="/"
             >
-              Home
+              Asosiy
             </Link>
             <Link
               onClick={scrollToTop}
               className="hover:text-red-500 transition-all"
               to="/Services"
             >
-              Our Services
+              Servislarimiz
             </Link>
             <div className="showcase-menu cursor-pointer hover:text-red-500 transition-all relative">
-              Show Cases
+            Loyihalarimiz
               <div className="showcase-list hidden absolute cursor-default -left-4 ">
                 <ul
                   style={{ border: "1px solid #e9e9e9" }}
@@ -285,7 +285,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                       className="hover:text-red-500 transition-all"
                       to="/showcases/showcase1"
                     >
-                      Show Case 1
+                      Orient Gold Invest
                     </Link>
                   </li>
                   <li className="listItem flex items-center gap-2">
@@ -296,9 +296,9 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                     <Link
                       onClick={scrollToTop}
                       className="hover:text-red-500 transition-all"
-                      to="/showcases/showcase2"
+                      to="/showcases/showcase1"
                     >
-                      Show Case 2
+                      Yangi Bozor
                     </Link>
                   </li>
                 </ul>
@@ -309,7 +309,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               className="hover:text-red-500 transition-all"
               to="/about"
             >
-              About
+              Biz haqimizda
             </Link>
             <div
               className="relative cursor-pointer  transition-all"
@@ -334,7 +334,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
 
             <Link onClick={scrollToTop} to="/contact">
               <Button
-                content={"Contact Us"}
+                content={"Bog'lanish"}
                 fontSize={"text-xl"}
                 fontWeight={""}
                 padding={"px-5  py-2"}
@@ -394,7 +394,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
         } bg-white  left-0 w-96 p-5 px-10 max-sm:px-5 max-sm:w-80 z-30 transition-all font-medium`}
       >
         <div id="header" className="flex justify-between items-center">
-          <img className="w-36" src="https://yaqeenuz.files.wordpress.com/2024/03/homyz-logo.jpgpng" alt="Yaqeen-logo2" />
+          <img className="w-36" src="https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/logo-orig.png" alt="Yaqeen-logo2" />
           <div
             onClick={() => {
               setViewSideNav(!viewSideNav);
@@ -423,7 +423,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             to="/"
             className="hover:text-red-500 transition-all"
           >
-            Home
+            Asosiy
           </Link>
           <Link
             onClick={() => {
@@ -433,7 +433,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             to="/services"
             className="hover:text-red-500 transition-all"
           >
-            Our Services
+            Servislarimiz
           </Link>
           <div className="relative">
             <div
@@ -442,7 +442,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               }}
               className="flex justify-between hover:text-red-500 max-sm:hover:text-black transition-all items-center cursor-pointer"
             >
-              <p className="transition-all">Show Cases</p>
+              <p className="transition-all">Kengaytirilgan</p>
               <FaAngleDown
                 className={`${
                   showcaseDropDown ? "-rotate-180" : "rotate-0"
@@ -460,7 +460,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 className="hover:text-red-500 transition-all"
                 to={"/showcases/showcase1"}
               >
-                Show Cases 1
+                Loyihalarimiz 1
               </Link>
               <Link
                 onClick={() => {
@@ -470,7 +470,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 to={"/showcases/showcase2"}
                 className="hover:text-red-500 transition-all"
               >
-                Show Cases 2
+                Loyihalarimiz 2
               </Link>
             </ul>
             <div
@@ -486,7 +486,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 to={"/about"}
                 className="hover:text-red-500 transition-all w-full block"
               >
-                About
+                Biz haqimizda
               </Link>
               <Link
                 onClick={() => {
@@ -497,7 +497,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 className="hover:text-red-500 transition-all w-full block"
               >
                 <Button
-                  content={"Contact Us"}
+                  content={"Bog'lanish"}
                   fontSize={""}
                   padding={"py-[6px] px-3"}
                   furtherClasses={" mt-4"}

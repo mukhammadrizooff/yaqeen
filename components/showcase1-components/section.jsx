@@ -24,7 +24,7 @@ const Section = ({ url, title, desc, href, attachment }) => {
         <p className="text-2xl  max-sm:w-full">{desc}</p>
         <Link onClick={scrollToTop} to={href}>
           <Button
-            content={"See More"}
+            content={"Ko'proq bilish"}
             fontSize={"text-2xl"}
             padding={"px-8  py-3 max-sm:py-2 max-sm:px-5"}
           />

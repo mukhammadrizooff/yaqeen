@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 const Featured = () => {
   useEffect(() => {
-    document.title = "Featured - Yaqeen";
+    document.title = "Tanlangan - Yaqeen";
   }, []);
   return (
     <div className="overflow-hidden">
@@ -18,7 +18,7 @@ const Featured = () => {
           viewport={{ once: true, amount: 0.2 }}
           className="text-6xl max-md:text-5xl font-semibold"
         >
-          Featured
+          Tanlangan
         </motion.h1>
       </div>
       <div
@@ -32,7 +32,7 @@ const Featured = () => {
                 href={e.id}
                 imgSrc={e.mainImage}
                 pricing={e.price}
-                titlePart1={"House in "}
+                titlePart1={"Xonadon: "}
                 titlePart2={e.name}
                 type={e.type}
                 key={i}

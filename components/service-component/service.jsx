@@ -51,52 +51,50 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
           className="w-2/3 max-lg:w-full flex flex-col gap-5"
         >
           <h1 className="text-[46px] leading-none max-md:text-4xl font-semibold">
-            Tuning in to what really matters
+          Haqiqatan ham muhim bo`lgan narsani sozlash
           </h1>
           <div className="text-xl flex flex-col gap-3">
             <p>
-              We believe that technology and human-centered design are
-              revolutionizing brand experiences. Remarkable innovations are
-              allowing products to become more sentient and connected, enabling
-              greater connection between people. Our role is to ensure that each
-              product experience is attuned to people’s needs and relevant to
-              the rhythm and habits of their daily lives. Through first and
-              secondary research, we identify what will really matter to users
-              and we never let go of the vision that inspires great products.
+              Biz texnologiya va insonga asoslangan dizayn ekanligiga ishonamiz
+              brend tajribasini inqilob qilish. Ajoyib innovatsiyalar
+              mahsulotlarni yanada sezgir va bog`langan bo`lishiga imkon beradi
+              odamlar o`rtasidagi aloqani kuchaytiradi. Bizning vazifamiz har bir narsani ta`minlashdir
+              mahsulot tajribasi odamlarning ehtiyojlariga moslashtirilgan va tegishli
+              ularning kundalik hayotining ritmi va odatlari. Birinchi orqali va
+              ikkinchi darajali tadqiqot, biz foydalanuvchilar uchun nima muhimligini aniqlaymiz
+              va biz ajoyib mahsulotlarni ilhomlantiradigan tasavvurdan hech qachon voz kechmaymiz.
             </p>
             <p>
-              Test your ideas with minimal risk. Test even the most complex
-              ideas, involving emerging technologies – like blockchain – with
-              the help of our expert Outsourceo team. We’ll help you with
-              predictions, roadmapping and post-PoC Development analysis, to
-              identify the best-fit solution with minimal financial risk.
+              G`oyalaringizni minimal xavf bilan sinab ko`ring. Hatto eng murakkabini ham sinab ko`ring
+              g`oyalar, rivojlanayotgan texnologiyalarni o`z ichiga olgan - blokcheyn kabi - bilan
+              bizning ekspert Outsourceo jamoasining yordami. Biz sizga yordam beramiz
+              bashorat, yo`l xaritasi va post-PoC Development tahlil qilish, uchun
+              minimal moliyaviy xavf bilan eng mos yechimni aniqlash.
             </p>
             <p>
-              We help companies assess their skills and choose a new direction
-              which utilizes the talents of the team and resources most
-              productively.
+              Biz kompaniyalarga ularning malakasini baholash va yangi yo‘nalish tanlashda yordam beramiz
+              bu jamoaning qobiliyatlari va resurslaridan ko`proq foydalanadi
+              samarali.
             </p>
             <p>
-              As consumers have more and more product choices, the role of
-              design to bring clarity and relevance has never been more
-              necessary. Design will continue to be the significant difference
-              maker and the reason for choosing one product or experience over
-              another. On every product we look through the eyes of the user,
-              studying the experience critically and empathetically. Our
-              creative response combines strategy with execution to deliver
-              beautiful, innovative and differentiated design.
+              Iste`molchilar tobora ko`proq mahsulot tanloviga ega bo`lganligi sababli, roli
+              ravshanlik va dolzarblik olib keladigan dizayn hech qachon bo`lmagan
+              zarur. Dizayn muhim farq bo`lib qoladi
+              ishlab chiqaruvchi va bitta mahsulotni yoki tajribani tanlash sababi
+              boshqa. Har bir mahsulotga biz foydalanuvchi ko`zi bilan qaraymiz,
+              tajribani tanqidiy va empatik tarzda o`rganish. Bizning
+              ijodiy javob strategiyani amalga oshirish bilan birlashtiradi
+              chiroyli, innovatsion va tabaqalashtirilgan dizayn.
             </p>
             <p>
-              Our team of software experts will provide a comprehensive project
-              evaluation, allowing you to develop your roadmap for success that
-              maximises the efficiency of your future projects.
+              Texnik innovatsiyalarni shunday shaklda qamrab olish haqida gap ketganda
+              Yakuniy foydalanuvchi bilan qo`ng`iroq qilsa, bizning erta ishtirokimiz, ko`pincha fan skameykadan ketishidan oldin, inson
+              omillar, shuningdek, ishlab chiqarishni loyihalash masalalari jarayonning optimal bosqichida ko`rib chiqiladi.
             </p>
             <p>
-              When it comes to encapsulating technical innovation in a form that
-              chimes with an end user, our early involvement, often before the
-              science leaves the bench, can help to ensure that the human
-              factors as well as the production design issues are considered at
-              the optimum stage in the process.
+            Texnik innovatsiyalarni shunday shaklda qamrab olish haqida gap ketganda
+            Yakuniy foydalanuvchi bilan qo`ng`iroq qilsa, bizning erta ishtirokimiz, ko`pincha fan skameykadan ketishidan oldin, inson
+            omillar, shuningdek, ishlab chiqarishni loyihalash masalalari jarayonning optimal bosqichida ko`rib chiqiladi.
             </p>
           </div>
           <div className="mt-10">
@@ -112,16 +110,16 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      How does SAASworld make money?
+                    SAASworld qanday qilib pul ishlaydi?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                Ko`pchilikda ma`rifat bir davlat degan tushuncha bor.
+                Ko`pchilik, shuningdek, unga erishilganda, inson borligiga ishonishadi
+                abadiy o`sha holatda. Kerakli aql-idrokingiz uchun. rahmat
+                o`qiganingiz uchun.
                 </AccordionPanel>
               </AccordionItem>
 
@@ -133,16 +131,16 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      What is the Top Rated program?
+                    Eng reytingli dastur nima?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                Ko`pchilikda ma`rifat bir davlat degan tushuncha bor.
+                Ko`pchilik, shuningdek, unga erishilganda, inson borligiga ishonishadi
+                abadiy o`sha holatda. Kerakli aql-idrokingiz uchun. rahmat
+                o`qiganingiz uchun.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem className="border-none box-shadow p-6">
@@ -153,17 +151,17 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      What’s the difference between finding clients online,
-                      versus locally?
+                    Onlayn mijozlarni topish o`rtasidagi farq nima?
+                    mahalliyga nisbatan?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                Ko`pchilikda ma`rifat bir davlat degan tushuncha bor.
+                Ko`pchilik, shuningdek, unga erishilganda, inson borligiga ishonishadi
+                abadiy o`sha holatda. Kerakli aql-idrokingiz uchun. rahmat
+                o`qiganingiz uchun.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem className="border-none box-shadow p-6">
@@ -174,16 +172,16 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      How does SAASworld make money?
+                    SAASworld qanday qilib pul ishlaydi?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                Ko`pchilikda ma`rifat bir davlat degan tushuncha bor.
+                Ko`pchilik, shuningdek, unga erishilganda, inson borligiga ishonishadi
+                abadiy o`sha holatda. Kerakli aql-idrokingiz uchun. rahmat
+                o`qiganingiz uchun.
                 </AccordionPanel>
               </AccordionItem>
             </Accordion>
@@ -197,7 +195,7 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
           className="w-1/3 max-lg:w-full sticky top-36 questions-card p-8 gap-5 flex flex-col"
         >
           <h1 className="text-center text-2xl font-semibold">
-            Have Additional Questions?
+            Qoshimcha savvollar bolsa?
           </h1>
           <div className="flex mt-2  gap-3 text-xl items-center">
             <div>
@@ -209,13 +207,13 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
             <div>
               <FaPhone className="rotate-90 text-red-500" />
             </div>
-            <p>+99890 12345678</p>
+            <p>+998 99 007 37 33</p>
           </div>
           <div className="flex  gap-3 text-xl items-center">
             <div>
               <FaMapMarkerAlt className="text-red-500" />
             </div>
-            <p>information@office.com</p>
+            <p>info@yaqeen.uz</p>
           </div>
           <Link
             to="/contact"
@@ -223,7 +221,7 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
             className="text-red-500 hover:text-black transition-all duration-300"
           >
             <div className="flex items-center gap-1">
-              <p className="text-xl">Contact us</p>
+              <p className="text-xl">Bog&apos;lanish</p>
               <FaArrowRight className="text-sm mt-[2px]" />
             </div>
           </Link>

@@ -6,7 +6,7 @@ import { animationVariants } from "../../constants/animationVariants";
 const ServicesComponent = () => {
   return (
     <>
-      <div className="bg-[url(/services-page-images/service-hero-bg.jpg)] bg-fixed bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 ">
+      <div className="bg-[url(https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/photo_2024-07-21_13-45-05-841352303-e1721551806733.jpg)] bg-fixed bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 ">
         <motion.div
           initial="initial"
           whileInView="animate"
@@ -16,19 +16,18 @@ const ServicesComponent = () => {
           className="flex gap-10 justify-between items-end max-md:items-center px-10 mx-auto max-md:px-5 max-md:flex-col"
         >
           <div className="text-white flex flex-col gap-8 max-md:items-center max-md:text-center">
-            <h1 className="text-5xl font-bold">Our Services</h1>
+            <h1 className="text-5xl font-bold">Bizning Xizmatlar</h1>
             <p className="text-xl max-w-md">
-              Our mission is to engage in issues that are of concern to
-              individuals
+              Missiya va maqsadlarimiz: tez orada texnik koruv yakunlanadi.
             </p>
           </div>
           <div className="flex gap-12 text-white max-md:text-center">
             <div className="flex max-md:items-center  flex-col gap-4">
-              <h2 className="text-4xl title-font font-bold">19K+</h2>
+              <h2 className="text-4xl title-font font-bold">500+</h2>
               <p className="text-lg">Premium houses</p>
             </div>
             <div className="flex max-md:items-center flex-col gap-4">
-              <h2 className="text-4xl  title-font font-bold">5000+</h2>
+              <h2 className="text-4xl  title-font font-bold">1500+</h2>
               <p className="text-lg">Premium houses</p>
             </div>
           </div>
