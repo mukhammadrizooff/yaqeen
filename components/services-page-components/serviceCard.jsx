@@ -34,7 +34,7 @@ const ServiceCard = ({ id, title, imgSrc, iconSrc, brief }) => {
           className="it-content text-xl mt-10 font-semibold  opacity-0 scale-y-0 transition-all duration-75 origin-top hover:text-black"
         >
           <div className="flex justify-between gap-3 items-center">
-            <p className="duration-150">Read More </p>
+            <p className="duration-150">Ko`proq bilish</p>
             <FaArrowRight className="duration-150" style={{ marginTop: 2 }} />
           </div>
         </Link>
