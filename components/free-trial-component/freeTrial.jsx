@@ -13,11 +13,11 @@ const FreeTrial = () => {
     >
       <h1 className=" text-5xl max-sm:text-4xl font-semibold">
         {" "}
-        IMPROVE YOUR BUSINESS AND MAKE YOUR WORK EASY
+        BIZNESINGIZNI YANGILAYTIRISH VA ISHINGIZNI OSON QILING
       </h1>
       <Link onClick={scrollToTop} to="/contact">
         <Button
-          content={"Start free trial"}
+          content={"Bepul sinovni boshlang"}
           fontSize={"text-2xl max-sm:text-xl"}
           padding={"px-6 py-2"}
           styles={{ borderColor: "white" }}

@@ -6,10 +6,10 @@ export const servicesData = [
     title: "IT Maslahatlar",
     icon: "https://homyz-project.vercel.app/Services/icons/it-consultancy-icon.png",
     shortDescription:
-      "We believe that technology design are revolutionizing brand experiences.",
-    heading: "Tuning in to what really matters",
+      "Biz texnologiya dizayni brend tajribasini inqilob qilishiga ishonamiz.",
+    heading: "Haqiqatan ham muhim bo'lgan narsani sozlash",
     mainDescription:
-      "We believe that technology and human-centered design are revolutionizing brand experiences. Remarkable innovations are allowing products to become more sentient and connected, enabling greater connection between people. Our role is to ensure that each product experience is attuned to people’s needs and relevant to the rhythm and habits of their daily lives. Through first and secondary research, we identify what will really matter to users and we never let go of the vision that inspires great products.",
+      "Biz texnologiya va insonga asoslangan dizayn brend tajribasini inqilob qilishiga ishonamiz. Ajoyib innovatsiyalar mahsulotlarning yanada sezgir va bog'langan bo'lishiga imkon beradi, bu esa odamlar o'rtasida yanada kengroq aloqani ta'minlaydi. Bizning vazifamiz har bir mahsulot tajribasi odamlarning ehtiyojlariga mos kelishini va ularning kundalik hayotining ritmi va odatlariga mos kelishini ta'minlashdir. Birinchi va ikkinchi darajali tadqiqotlar orqali biz foydalanuvchilar uchun nima muhimligini aniqlaymiz va biz ajoyib mahsulotlarni ilhomlantiradigan qarashlardan hech qachon voz kechmaymiz.",
   },
   {
     id: 2,
@@ -18,10 +18,10 @@ export const servicesData = [
     title: "Media va SMM xizmati",
     icon: "https://homyz-project.vercel.app/Services/icons/cloud-migration-icon.png",
     shortDescription:
-      "Process of designing, creating, deploying and maintaining software.",
-    heading: "Tuning in to what really matters",
+      "Dasturiy ta'minotni loyihalash, yaratish, joylashtirish va saqlash jarayoni.",
+    heading: "Haqiqatan ham muhim bo'lgan narsani sozlash",
     mainDescription:
-      "We believe that technology and human-centered design are revolutionizing brand experiences. Remarkable innovations are allowing products to become more sentient and connected, enabling greater connection between people. Our role is to ensure that each product experience is attuned to people’s needs and relevant to the rhythm and habits of their daily lives. Through first and secondary research, we identify what will really matter to users and we never let go of the vision that inspires great products.",
+      "Biz texnologiya va insonga asoslangan dizayn brend tajribasini inqilob qilishiga ishonamiz. Ajoyib innovatsiyalar mahsulotlarning yanada sezgir va bog'langan bo'lishiga imkon beradi, bu esa odamlar o'rtasida yanada kengroq aloqani ta'minlaydi. Bizning vazifamiz har bir mahsulot tajribasi odamlarning ehtiyojlariga mos kelishini va ularning kundalik hayotining ritmi va odatlariga mos kelishini ta'minlashdir. Birinchi va ikkinchi darajali tadqiqotlar orqali biz foydalanuvchilar uchun nima muhimligini aniqlaymiz va biz ajoyib mahsulotlarni ilhomlantiradigan qarashlardan hech qachon voz kechmaymiz.",
   },
   {
     id: 3,
@@ -31,9 +31,9 @@ export const servicesData = [
     icon: "https://homyz-project.vercel.app/Services/icons/poc-development-icon.png",
     shortDescription:
       "Protect networks, devices and data from attacks or unauthorized access.",
-    heading: "Tuning in to what really matters",
+    heading: "Haqiqatan ham muhim bo'lgan narsani sozlash",
     mainDescription:
-      "We believe that technology and human-centered design are revolutionizing brand experiences. Remarkable innovations are allowing products to become more sentient and connected, enabling greater connection between people. Our role is to ensure that each product experience is attuned to people’s needs and relevant to the rhythm and habits of their daily lives. Through first and secondary research, we identify what will really matter to users and we never let go of the vision that inspires great products.",
+      "Biz texnologiya va insonga asoslangan dizayn brend tajribasini inqilob qilishiga ishonamiz. Ajoyib innovatsiyalar mahsulotlarning yanada sezgir va bog'langan bo'lishiga imkon beradi, bu esa odamlar o'rtasida yanada kengroq aloqani ta'minlaydi. Bizning vazifamiz har bir mahsulot tajribasi odamlarning ehtiyojlariga mos kelishini va ularning kundalik hayotining ritmi va odatlariga mos kelishini ta'minlashdir. Birinchi va ikkinchi darajali tadqiqotlar orqali biz foydalanuvchilar uchun nima muhimligini aniqlaymiz va biz ajoyib mahsulotlarni ilhomlantiradigan qarashlardan hech qachon voz kechmaymiz.",
   },
   {
     id: 4,
@@ -42,9 +42,9 @@ export const servicesData = [
     title: "Jamoa xizmati",
     icon: "https://homyz-project.vercel.app/Services/icons/quality-assurance-icon.png",
     shortDescription: "See to the integrity and security of your records.",
-    heading: "Tuning in to what really matters",
+    heading: "Haqiqatan ham muhim bo'lgan narsani sozlash",
     mainDescription:
-      "We believe that technology and human-centered design are revolutionizing brand experiences. Remarkable innovations are allowing products to become more sentient and connected, enabling greater connection between people. Our role is to ensure that each product experience is attuned to people’s needs and relevant to the rhythm and habits of their daily lives. Through first and secondary research, we identify what will really matter to users and we never let go of the vision that inspires great products.",
+      "Biz texnologiya va insonga asoslangan dizayn brend tajribasini inqilob qilishiga ishonamiz. Ajoyib innovatsiyalar mahsulotlarning yanada sezgir va bog'langan bo'lishiga imkon beradi, bu esa odamlar o'rtasida yanada kengroq aloqani ta'minlaydi. Bizning vazifamiz har bir mahsulot tajribasi odamlarning ehtiyojlariga mos kelishini va ularning kundalik hayotining ritmi va odatlariga mos kelishini ta'minlashdir. Birinchi va ikkinchi darajali tadqiqotlar orqali biz foydalanuvchilar uchun nima muhimligini aniqlaymiz va biz ajoyib mahsulotlarni ilhomlantiradigan qarashlardan hech qachon voz kechmaymiz.",
   },
   {
     id: 5,
@@ -53,18 +53,19 @@ export const servicesData = [
     title: "Kochmas mulk xizmati",
     icon: "https://homyz-project.vercel.app/Services/icons/product-design-icon.png",
     shortDescription: "See to the integrity and security of your records.",
-    heading: "Tuning in to what really matters",
+    heading: "Haqiqatan ham muhim bo'lgan narsani sozlash",
     mainDescription:
-      "We believe that technology and human-centered design are revolutionizing brand experiences. Remarkable innovations are allowing products to become more sentient and connected, enabling greater connection between people. Our role is to ensure that each product experience is attuned to people’s needs and relevant to the rhythm and habits of their daily lives. Through first and secondary research, we identify what will really matter to users and we never let go of the vision that inspires great products.",
+      "Biz texnologiya va insonga asoslangan dizayn brend tajribasini inqilob qilishiga ishonamiz. Ajoyib innovatsiyalar mahsulotlarning yanada sezgir va bog'langan bo'lishiga imkon beradi, bu esa odamlar o'rtasida yanada kengroq aloqani ta'minlaydi. Bizning vazifamiz har bir mahsulot tajribasi odamlarning ehtiyojlariga mos kelishini va ularning kundalik hayotining ritmi va odatlariga mos kelishini ta'minlashdir. Birinchi va ikkinchi darajali tadqiqotlar orqali biz foydalanuvchilar uchun nima muhimligini aniqlaymiz va biz ajoyib mahsulotlarni ilhomlantiradigan qarashlardan hech qachon voz kechmaymiz.",
   },
   {
     id: 6,
     image: "https://homyz-project.vercel.app/Services/images/smart-team.jpg",
-    title: "Product Design",
+    title: "Mahsulot dizayni",
     icon: "https://homyz-project.vercel.app/Services/icons/smart-team-icon.png",
-    shortDescription: "See to the integrity and security of your records.",
-    heading: "Tuning in to what really matters",
+    shortDescription:
+      "Yozuvlaringizning yaxlitligi va xavfsizligini tekshiring.",
+    heading: "Haqiqatan ham muhim bo'lgan narsani sozlash",
     mainDescription:
-      "We believe that technology and human-centered design are revolutionizing brand experiences. Remarkable innovations are allowing products to become more sentient and connected, enabling greater connection between people. Our role is to ensure that each product experience is attuned to people’s needs and relevant to the rhythm and habits of their daily lives. Through first and secondary research, we identify what will really matter to users and we never let go of the vision that inspires great products.",
+      "Biz texnologiya va insonga asoslangan dizayn brend tajribasini inqilob qilishiga ishonamiz. Ajoyib innovatsiyalar mahsulotlarning yanada sezgir va bog'langan bo'lishiga imkon beradi, bu esa odamlar o'rtasida yanada kengroq aloqani ta'minlaydi. Bizning vazifamiz har bir mahsulot tajribasi odamlarning ehtiyojlariga mos kelishini va ularning kundalik hayotining ritmi va odatlariga mos kelishini ta'minlashdir. Birinchi va ikkinchi darajali tadqiqotlar orqali biz foydalanuvchilar uchun nima muhimligini aniqlaymiz va biz ajoyib mahsulotlarni ilhomlantiradigan qarashlardan hech qachon voz kechmaymiz.",
   },
 ];
