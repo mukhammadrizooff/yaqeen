@@ -4,6 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { animationVariants } from "../../constants/animationVariants";
 import { scrollToTop } from "../../constants/scrollToTop";
+
 const ServiceCard = ({ id, title, imgSrc, iconSrc, brief }) => {
   return (
     <motion.div

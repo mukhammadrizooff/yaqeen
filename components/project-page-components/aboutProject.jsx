@@ -14,6 +14,7 @@ import { animationVariants } from "../../constants/animationVariants";
 import { motion } from "framer-motion";
 import { scrollToTop } from "../../constants/scrollToTop";
 import { useEffect } from "react";
+
 const AboutProject = ({ heroImageSrc, attachment }) => {
   const param = useParams();
   const project = showCase[param.id - 1];
@@ -70,15 +71,15 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
         >
           <div className="">
             <h2 className="text-xl mb-2 ">Loyiha turi</h2>
-            <h3 className="text-xl opacity-80">Turar joy</h3>
+            <h3 className="text-xl opacity-80">{project.projectDetails.projectType}</h3>
           </div>
           <div className="">
             <h2 className="text-xl mb-2 ">Sana</h2>
-            <h3 className="text-xl opacity-80">Noyabr 13, 2023</h3>
+            <h3 className="text-xl opacity-80">{project.projectDetails.date}</h3>
           </div>
           <div className="">
             <h2 className="text-xl mb-2 ">Servis</h2>
-            <h3 className="text-xl opacity-80">Yaqeen & Group</h3>
+            <h3 className="text-xl opacity-80">{project.projectDetails.service}</h3>
           </div>
           <div className="">
             <h2 className="text-xl mb-2 ">Ulashish nuqtalari</h2>
@@ -118,23 +119,20 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
         className="text-lg mx-auto p-10 max-sm:px-5 max-sm:pt-5  max-sm:mb-8 mb-20"
       >
         <p>
-        Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.
+        {project.description.mission}
         </p>
         <div className="p-5 px-10 max-sm:px-4">
           <h2 className="text-2xl text-center font-semibold p-5 max-sm:p-3 border-l-4 border-red-500">
-            Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.
+            {project.description.heading}
           </h2>
         </div>
         <div className="flex flex-col gap-1 mt-4">
           <h2 className="text-2xl font-semibold">
-            Majmuaning ahamiyati
+            {project.description.title}
           </h2>
-          <p>
-          Xonadon sohiblari loyihani yanada qulayliklaridan bahramant bo&apos;lishadi chunki ushbu majmua o&apos;zida suv zahirasi hamda elektr tarmogi bolmaganida ham liftlar ishlashlari bilan yanada ishonchli va qulaylik kasb etadi.
-          </p>
-          <p>
-          Xondonlar shahar markazida joylashganligi maktab, bog&apos;cha va boshqa oquv dargohlariga borishni yanada yaqin qiladi.
-          </p>
+          {
+            project.description.text.map((p, i)=> <p key={i}> {p}</p>)
+          }
         </div>
       </motion.div>
 

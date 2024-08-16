@@ -27,6 +27,7 @@ const Service = () => {
       breif={serviceData.shortDescription}
       descr={serviceData.mainDescription}
       imageSrc={serviceData.image}
+      heading={serviceData.heading}
     />
   );
 };
