@@ -3,7 +3,7 @@ export const showCase = [
     id: 1,
     city: "2-Kichik Daha",
     shortDescription:
-      "Uzbekiston respublikasi, Andijon viloyatining 2-kichik dahasida qad rostlagan 700 talik xonadonlarimiz.",
+    "Uzbekiston respublikasi, Andijon viloyatining 2-kichik dahasida qad rostlagan 700 talik xonadonlarimiz.",
     description:{
       mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
       heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
@@ -32,18 +32,18 @@ export const showCase = [
     id: 2,
     city: "Yangi Bozor",
     shortDescription:
-      "Uzbekiston respublikasi, Andijon viloyatining Yangi Bozor hududida qad rostlagan 179 talik xonadonlarimiz.",
-      description:{
-        mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
-        heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
-        title: "Majmuaning ahamiyati",
-        text:[
-          "2-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
-          "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
-        ]
-      },
+    "Uzbekiston respublikasi, Andijon viloyatining Yangi Bozor hududida qad rostlagan 179 talik xonadonlarimiz.",
+    description:{
+      mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
+      heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
+      title: "Majmuaning ahamiyati",
+      text:[
+        "2-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
+        "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
+      ]
+    },
     coverImage:
-      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
+    "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
     moreImages: [
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-23-56.png",
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
@@ -62,16 +62,16 @@ export const showCase = [
     id: 3,
     city: "2-Kichik Daha",
     shortDescription:
-      "Uzbekiston respublikasi, Andijon viloyatining 2-kichik dahasida qad rostlagan 700 talik xonadonlarimiz.",
-      description:{
-        mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
-        heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
-        title: "Majmuaning ahamiyati",
-        text:[
-          "3-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
-          "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
-        ]
-      },
+    "Uzbekiston respublikasi, Andijon viloyatining 2-kichik dahasida qad rostlagan 700 talik xonadonlarimiz.",
+    description:{
+      mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
+      heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
+      title: "Majmuaning ahamiyati",
+      text:[
+        "3-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
+        "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
+      ]
+    },
     coverImage: "https://yaqeenuz.files.wordpress.com/2024/04/5.jpg",
     moreImages: [
       "https://yaqeenuz.files.wordpress.com/2024/04/4.jpg",
@@ -91,18 +91,18 @@ export const showCase = [
     id: 4,
     city: "Yangi Bozor",
     shortDescription:
-      "Uzbekiston respublikasi, Andijon viloyatining Yangi Bozor hududida qad rostlagan 179 talik xonadonlarimiz.",
-      description:{
-        mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
-        heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
-        title: "Majmuaning ahamiyati",
-        text:[
-          "4-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
-          "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
-        ]
-      },
+    "Uzbekiston respublikasi, Andijon viloyatining Yangi Bozor hududida qad rostlagan 179 talik xonadonlarimiz.",
+    description:{
+      mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
+      heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
+      title: "Majmuaning ahamiyati",
+      text:[
+        "4-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
+        "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
+      ]
+    },
     coverImage:
-      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
+    "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
     moreImages: [
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-23-56.png",
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
@@ -121,16 +121,16 @@ export const showCase = [
     id: 5,
     city: "2-Kichik Daha",
     shortDescription:
-      "Uzbekiston respublikasi, Andijon viloyatining 2-kichik dahasida qad rostlagan 700 talik xonadonlarimiz.",
-      description:{
-        mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
-        heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
-        title: "Majmuaning ahamiyati",
-        text:[
-          "5-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
-          "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
-        ]
-      },
+    "Uzbekiston respublikasi, Andijon viloyatining 2-kichik dahasida qad rostlagan 700 talik xonadonlarimiz.",
+    description:{
+      mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
+      heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
+      title: "Majmuaning ahamiyati",
+      text:[
+        "5-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
+        "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
+      ]
+    },
     coverImage: "https://yaqeenuz.files.wordpress.com/2024/04/5.jpg",
     moreImages: [
       "https://yaqeenuz.files.wordpress.com/2024/04/4.jpg",
@@ -150,18 +150,18 @@ export const showCase = [
     id: 6,
     city: "Yangi Bozor",
     shortDescription:
-      "Uzbekiston respublikasi, Andijon viloyatining Yangi Bozor hududida qad rostlagan 179 talik xonadonlarimiz.",
-      description:{
-        mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
-        heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
-        title: "Majmuaning ahamiyati",
-        text:[
-          "6-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
-          "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
-        ]
-      },
+    "Uzbekiston respublikasi, Andijon viloyatining Yangi Bozor hududida qad rostlagan 179 talik xonadonlarimiz.",
+    description:{
+      mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
+      heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
+      title: "Majmuaning ahamiyati",
+      text:[
+        "6-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
+        "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
+      ]
+    },
     coverImage:
-      "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
+    "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
     moreImages: [
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-23-56.png",
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
