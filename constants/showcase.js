@@ -4,8 +4,15 @@ export const showCase = [
     city: "2-Kichik Daha",
     shortDescription:
       "Uzbekiston respublikasi, Andijon viloyatining 2-kichik dahasida qad rostlagan 700 talik xonadonlarimiz.",
-    description:
-      "Andijonda qad rostlagan Orient Gold Invest kop qavvatlik turar joy majmuamiz o'z bag'riga 700 ta oilani sig'dra oladi hamda uhsbu turar joy majmua ozing zamonaviy tashqi dizayn hamda markazda joylashgan o'ni bilan ham yaqqol ko'zga tashlanadi. Ush bu majmuaga juda ham sifatli hamda mashhur bo'lgan qurilish materiallari va texnologiyalardan foydalangan holda katta tajribali memor va pudratchilarning malaka va konikmalari asosida barpo etilgandur.",
+    description:{
+      mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
+      heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
+      title: "Majmuaning ahamiyati",
+      text:[
+        "1-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
+        "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
+      ]
+    },
     coverImage: "https://yaqeenuz.files.wordpress.com/2024/04/5.jpg",
     moreImages: [
       "https://yaqeenuz.files.wordpress.com/2024/04/4.jpg",
@@ -26,8 +33,15 @@ export const showCase = [
     city: "Yangi Bozor",
     shortDescription:
       "Uzbekiston respublikasi, Andijon viloyatining Yangi Bozor hududida qad rostlagan 179 talik xonadonlarimiz.",
-    description:
-      "Andijonda qad rostlagan Yangi Bozor dagi kop qavvatlik turar joy majmuamiz o'z bag'riga 179 ta oilani sig'dra oladi hamda uhsbu turar joy majmua ozing zamonaviy tashqi dizayn hamda markazda joylashgan o'ni bilan ham yaqqol ko'zga tashlanadi. Ush bu majmuaga juda ham sifatli hamda mashhur bo'lgan qurilish materiallari va texnologiyalardan foydalangan holda katta tajribali memor va pudratchilarning malaka va konikmalari asosida barpo etilgandur.",
+      description:{
+        mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
+        heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
+        title: "Majmuaning ahamiyati",
+        text:[
+          "2-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
+          "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
+        ]
+      },
     coverImage:
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
     moreImages: [
@@ -49,8 +63,15 @@ export const showCase = [
     city: "2-Kichik Daha",
     shortDescription:
       "Uzbekiston respublikasi, Andijon viloyatining 2-kichik dahasida qad rostlagan 700 talik xonadonlarimiz.",
-    description:
-      "Andijonda qad rostlagan Orient Gold Invest kop qavvatlik turar joy majmuamiz o'z bag'riga 700 ta oilani sig'dra oladi hamda uhsbu turar joy majmua ozing zamonaviy tashqi dizayn hamda markazda joylashgan o'ni bilan ham yaqqol ko'zga tashlanadi. Ush bu majmuaga juda ham sifatli hamda mashhur bo'lgan qurilish materiallari va texnologiyalardan foydalangan holda katta tajribali memor va pudratchilarning malaka va konikmalari asosida barpo etilgandur.",
+      description:{
+        mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
+        heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
+        title: "Majmuaning ahamiyati",
+        text:[
+          "3-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
+          "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
+        ]
+      },
     coverImage: "https://yaqeenuz.files.wordpress.com/2024/04/5.jpg",
     moreImages: [
       "https://yaqeenuz.files.wordpress.com/2024/04/4.jpg",
@@ -71,8 +92,15 @@ export const showCase = [
     city: "Yangi Bozor",
     shortDescription:
       "Uzbekiston respublikasi, Andijon viloyatining Yangi Bozor hududida qad rostlagan 179 talik xonadonlarimiz.",
-    description:
-      "Andijonda qad rostlagan Yangi Bozor dagi kop qavvatlik turar joy majmuamiz o'z bag'riga 179 ta oilani sig'dra oladi hamda uhsbu turar joy majmua ozing zamonaviy tashqi dizayn hamda markazda joylashgan o'ni bilan ham yaqqol ko'zga tashlanadi. Ush bu majmuaga juda ham sifatli hamda mashhur bo'lgan qurilish materiallari va texnologiyalardan foydalangan holda katta tajribali memor va pudratchilarning malaka va konikmalari asosida barpo etilgandur.",
+      description:{
+        mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
+        heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
+        title: "Majmuaning ahamiyati",
+        text:[
+          "4-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
+          "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
+        ]
+      },
     coverImage:
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
     moreImages: [
@@ -94,8 +122,15 @@ export const showCase = [
     city: "2-Kichik Daha",
     shortDescription:
       "Uzbekiston respublikasi, Andijon viloyatining 2-kichik dahasida qad rostlagan 700 talik xonadonlarimiz.",
-    description:
-      "Andijonda qad rostlagan Orient Gold Invest kop qavvatlik turar joy majmuamiz o'z bag'riga 700 ta oilani sig'dra oladi hamda uhsbu turar joy majmua ozing zamonaviy tashqi dizayn hamda markazda joylashgan o'ni bilan ham yaqqol ko'zga tashlanadi. Ush bu majmuaga juda ham sifatli hamda mashhur bo'lgan qurilish materiallari va texnologiyalardan foydalangan holda katta tajribali memor va pudratchilarning malaka va konikmalari asosida barpo etilgandur.",
+      description:{
+        mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
+        heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
+        title: "Majmuaning ahamiyati",
+        text:[
+          "5-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
+          "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
+        ]
+      },
     coverImage: "https://yaqeenuz.files.wordpress.com/2024/04/5.jpg",
     moreImages: [
       "https://yaqeenuz.files.wordpress.com/2024/04/4.jpg",
@@ -116,8 +151,15 @@ export const showCase = [
     city: "Yangi Bozor",
     shortDescription:
       "Uzbekiston respublikasi, Andijon viloyatining Yangi Bozor hududida qad rostlagan 179 talik xonadonlarimiz.",
-    description:
-      "Andijonda qad rostlagan Yangi Bozor dagi kop qavvatlik turar joy majmuamiz o'z bag'riga 179 ta oilani sig'dra oladi hamda uhsbu turar joy majmua ozing zamonaviy tashqi dizayn hamda markazda joylashgan o'ni bilan ham yaqqol ko'zga tashlanadi. Ush bu majmuaga juda ham sifatli hamda mashhur bo'lgan qurilish materiallari va texnologiyalardan foydalangan holda katta tajribali memor va pudratchilarning malaka va konikmalari asosida barpo etilgandur.",
+      description:{
+        mission: "Biz loyihalarni qo&apos;llab-quvvatlash uchun global miqyosda o&apos;z yangilik va texnologiylar ustida izlanishlar ham olib boramiz.",
+        heading: "Yaqeen Group loyihalari o&apos;z ichiga koplab xonadondi qamrab oluvchi ko&apos;p qavvatli zamonaviy turar joy majmualari hisoblanadi.",
+        title: "Majmuaning ahamiyati",
+        text:[
+          "6-Lorem ipsum habitasse lacinia lectus habitant etiam ut facilisis taciti sem lacinia suspendisse, tortor rutrum ut rhoncus vulputate maecenas mi turpis netus elit.",
+          "Elit tempor diam duis commodo erat platea nullam taciti, gravida felis a gravida ligula rutrum."
+        ]
+      },
     coverImage:
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-24-38.png",
     moreImages: [
