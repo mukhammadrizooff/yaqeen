@@ -14,6 +14,7 @@ import { animationVariants } from "../../constants/animationVariants";
 import { motion } from "framer-motion";
 import { scrollToTop } from "../../constants/scrollToTop";
 import { useEffect } from "react";
+
 const AboutProject = ({ heroImageSrc, attachment }) => {
   const param = useParams();
   const project = showCase[param.id - 1];
@@ -70,15 +71,15 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
         >
           <div className="">
             <h2 className="text-xl mb-2 ">Loyiha turi</h2>
-            <h3 className="text-xl opacity-80">Turar joy</h3>
+            <h3 className="text-xl opacity-80">{project.projectDetails.projectType}</h3>
           </div>
           <div className="">
             <h2 className="text-xl mb-2 ">Sana</h2>
-            <h3 className="text-xl opacity-80">Noyabr 13, 2023</h3>
+            <h3 className="text-xl opacity-80">{project.projectDetails.date}</h3>
           </div>
           <div className="">
             <h2 className="text-xl mb-2 ">Servis</h2>
-            <h3 className="text-xl opacity-80">Yaqeen & Group</h3>
+            <h3 className="text-xl opacity-80">{project.projectDetails.service}</h3>
           </div>
           <div className="">
             <h2 className="text-xl mb-2 ">Ulashish nuqtalari</h2>

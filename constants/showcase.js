@@ -13,6 +13,11 @@ export const showCase = [
       "https://yaqeenuz.files.wordpress.com/2024/04/10.jpg",
       "https://yaqeenuz.files.wordpress.com/2024/04/1.jpg",
     ],
+    projectDetails:{
+      projectType: "1-Turar joy",
+      date: "Noyabr 1, 2023" ,
+      service: "Yaqeen & Group"
+    },
     prevHref: "/projects/6",
     nextHref: "/projects/2",
   },
@@ -31,6 +36,11 @@ export const showCase = [
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-25-29.png",
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-26-07.png",
     ],
+    projectDetails:{
+      projectType: "2-Turar joy",
+      date: "Noyabr 2, 2023" ,
+      service: "Yaqeen & Group"
+    },
     prevHref: "/projects/1",
     nextHref: "/projects/5",
   },
@@ -48,6 +58,11 @@ export const showCase = [
       "https://yaqeenuz.files.wordpress.com/2024/04/10.jpg",
       "https://yaqeenuz.files.wordpress.com/2024/04/1.jpg",
     ],
+    projectDetails:{
+      projectType: "3-Turar joy",
+      date: "Noyabr 3, 2023" ,
+      service: "Yaqeen & Group"
+    },
     prevHref: "/projects/2",
     nextHref: "/projects/4",
   },
@@ -66,6 +81,11 @@ export const showCase = [
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-25-29.png",
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-26-07.png",
     ],
+    projectDetails:{
+      projectType: "4-Turar joy",
+      date: "Noyabr 4, 2023" ,
+      service: "Yaqeen & Group"
+    },
     prevHref: "/projects/3",
     nextHref: "/projects/5",
   },
@@ -83,6 +103,11 @@ export const showCase = [
       "https://yaqeenuz.files.wordpress.com/2024/04/10.jpg",
       "https://yaqeenuz.files.wordpress.com/2024/04/1.jpg",
     ],
+    projectDetails:{
+      projectType: "5-Turar joy",
+      date: "Noyabr 5, 2023" ,
+      service: "Yaqeen & Group"
+    },
     prevHref: "/projects/4",
     nextHref: "/projects/6",
   },
@@ -101,6 +126,11 @@ export const showCase = [
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-25-29.png",
       "https://yaqeenuz.wordpress.com/wp-content/uploads/2024/07/2024-07-21_13-26-07.png",
     ],
+    projectDetails:{
+      projectType: "6-Turar joy",
+      date: "Noyabr 6, 2023" ,
+      service: "Yaqeen & Group"
+    },
     prevHref: "/projects/5",
     nextHref: "/projects/1",
   },
