@@ -18,7 +18,8 @@ import FreeTrial from "../free-trial-component/freeTrial";
 import { motion } from "framer-motion";
 import { animationVariants } from "../../constants/animationVariants";
 import { scrollToTop } from "../../constants/scrollToTop";
-const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
+
+const ServicePage = ({ id, title, heading, breif, descr, imageSrc }) => {
   return (
     <>
       <div
@@ -51,51 +52,10 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
           className="w-2/3 max-lg:w-full flex flex-col gap-5"
         >
           <h1 className="text-[46px] leading-none max-md:text-4xl font-semibold">
-          Haqiqatan ham muhim bo`lgan narsani sozlash
+          {heading}
           </h1>
           <div className="text-xl flex flex-col gap-3">
-            <p>
-              Biz texnologiya va insonga asoslangan dizayn ekanligiga ishonamiz
-              brend tajribasini inqilob qilish. Ajoyib innovatsiyalar
-              mahsulotlarni yanada sezgir va bog`langan bo`lishiga imkon beradi
-              odamlar o`rtasidagi aloqani kuchaytiradi. Bizning vazifamiz har bir narsani ta`minlashdir
-              mahsulot tajribasi odamlarning ehtiyojlariga moslashtirilgan va tegishli
-              ularning kundalik hayotining ritmi va odatlari. Birinchi orqali va
-              ikkinchi darajali tadqiqot, biz foydalanuvchilar uchun nima muhimligini aniqlaymiz
-              va biz ajoyib mahsulotlarni ilhomlantiradigan tasavvurdan hech qachon voz kechmaymiz.
-            </p>
-            <p>
-              G`oyalaringizni minimal xavf bilan sinab ko`ring. Hatto eng murakkabini ham sinab ko`ring
-              g`oyalar, rivojlanayotgan texnologiyalarni o`z ichiga olgan - blokcheyn kabi - bilan
-              bizning ekspert Outsourceo jamoasining yordami. Biz sizga yordam beramiz
-              bashorat, yo`l xaritasi va post-PoC Development tahlil qilish, uchun
-              minimal moliyaviy xavf bilan eng mos yechimni aniqlash.
-            </p>
-            <p>
-              Biz kompaniyalarga ularning malakasini baholash va yangi yo‘nalish tanlashda yordam beramiz
-              bu jamoaning qobiliyatlari va resurslaridan ko`proq foydalanadi
-              samarali.
-            </p>
-            <p>
-              Iste`molchilar tobora ko`proq mahsulot tanloviga ega bo`lganligi sababli, roli
-              ravshanlik va dolzarblik olib keladigan dizayn hech qachon bo`lmagan
-              zarur. Dizayn muhim farq bo`lib qoladi
-              ishlab chiqaruvchi va bitta mahsulotni yoki tajribani tanlash sababi
-              boshqa. Har bir mahsulotga biz foydalanuvchi ko`zi bilan qaraymiz,
-              tajribani tanqidiy va empatik tarzda o`rganish. Bizning
-              ijodiy javob strategiyani amalga oshirish bilan birlashtiradi
-              chiroyli, innovatsion va tabaqalashtirilgan dizayn.
-            </p>
-            <p>
-              Texnik innovatsiyalarni shunday shaklda qamrab olish haqida gap ketganda
-              Yakuniy foydalanuvchi bilan qo`ng`iroq qilsa, bizning erta ishtirokimiz, ko`pincha fan skameykadan ketishidan oldin, inson
-              omillar, shuningdek, ishlab chiqarishni loyihalash masalalari jarayonning optimal bosqichida ko`rib chiqiladi.
-            </p>
-            <p>
-            Texnik innovatsiyalarni shunday shaklda qamrab olish haqida gap ketganda
-            Yakuniy foydalanuvchi bilan qo`ng`iroq qilsa, bizning erta ishtirokimiz, ko`pincha fan skameykadan ketishidan oldin, inson
-            omillar, shuningdek, ishlab chiqarishni loyihalash masalalari jarayonning optimal bosqichida ko`rib chiqiladi.
-            </p>
+            {descr?.map(desc => <p>{ desc }</p>)}
           </div>
           <div className="mt-10">
             <Accordion
